@@ -1,0 +1,2087 @@
+diff --git a/slfifosync/GPIFII_Designer_sync_SlaveFIFO.cydsn/GPIFII_Designer_sync_SlaveFIFO.cyfx b/slfifosync/GPIFII_Designer_sync_SlaveFIFO.cydsn/GPIFII_Designer_sync_SlaveFIFO.cyfx
+index 514666e..da034ce 100755
+--- a/slfifosync/GPIFII_Designer_sync_SlaveFIFO.cydsn/GPIFII_Designer_sync_SlaveFIFO.cyfx
++++ b/slfifosync/GPIFII_Designer_sync_SlaveFIFO.cydsn/GPIFII_Designer_sync_SlaveFIFO.cyfx
+@@ -1,30 +1,30 @@
+ <?xml version="1.0" encoding="us-ascii"?>
+ <CyXmlSerializer>
+-<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+-<!--Due to this, there is no schema for this file.-->
+-<CyGuid_7d237aff-d944-11da-aaba-00164119d63b type_name="CyGpif2Designer.Common.PrjMgmt.Model.CyPrjMgmtGpif2exe" version="2">
+-<CyGuid_7d237b00-d944-11da-aaba-00164119d63b type_name="CyGpif2Designer.Common.PrjMgmt.Model.CyPrjMgmtProject" version="1">
+-<ProjectDocs>
+-<CyGuid_7d237b03-d944-11da-aaba-00164119d63b type_name="CyGpif2Designer.Common.PrjMgmt.Model.CyPrjMgmtItem" name="gpif2model.xml" persistent="./projectfiles/gpif2model.xml" target="7d237b02-d944-11da-aaba-00164119d63b">
+-<Hidden v="False" />
+-</CyGuid_7d237b03-d944-11da-aaba-00164119d63b>
+-<CyGuid_7d237b03-d944-11da-aaba-00164119d63b type_name="CyGpif2Designer.Common.PrjMgmt.Model.CyPrjMgmtItem" name="gpif2view.xml" persistent="./projectfiles/gpif2view.xml" target="7d237b01-d944-11da-aaba-00164119d63b">
+-<Hidden v="False" />
+-</CyGuid_7d237b03-d944-11da-aaba-00164119d63b>
+-<CyGuid_7d237b03-d944-11da-aaba-00164119d63b type_name="CyGpif2Designer.Common.PrjMgmt.Model.CyPrjMgmtItem" name="gpif2timingsimulation.xml" persistent="./projectfiles/gpif2timingsimulation.xml" target="3ad448c6-d155-4f76-a7fb-e760cd8e6feb">
+-<Hidden v="False" />
+-</CyGuid_7d237b03-d944-11da-aaba-00164119d63b>
+-</ProjectDocs>
+-<OutputDocs>
+-<CyGuid_7d237b03-d944-11da-aaba-00164119d63b type_name="CyGpif2Designer.Common.PrjMgmt.Model.CyPrjMgmtItem" name="cyfxgpif2config.h" persistent="C:\Users\mddd\Desktop\AN Vaulting\AN65974_update\Final Deliverable\AN65974\AN65974\FX3 Firmware\GPIFII_Designer_sync_SlaveFIFO.cydsn\cyfxgpif2config.h" target="7d237afd-d944-11da-aaba-00164119d63b">
+-<Hidden v="False" />
+-</CyGuid_7d237b03-d944-11da-aaba-00164119d63b>
+-</OutputDocs>
+-</CyGuid_7d237b00-d944-11da-aaba-00164119d63b>
+-<Settings>
+-<Setting name="GPIF2_OutputName" value="cyfxgpif2config" />
+-<Setting name="GPIF2_OutputLocation" value="C:\Users\mddd\Desktop\AN Vaulting\AN65974_update\Final Deliverable\AN65974\AN65974\FX3 Firmware\GPIFII_Designer_sync_SlaveFIFO.cydsn" />
+-<Setting name="GPIF2_Template" value="C:\Program Files (x86)\Cypress\EZ-USB FX3 SDK\1.3\GPIFII Designer\inputs\outputtemplates\cygpif2cheadertemplate.tpl" />
+-</Settings>
+-</CyGuid_7d237aff-d944-11da-aaba-00164119d63b>
++  <!--This file is machine generated and read. It is not intended to be edited by hand.-->
++  <!--Due to this, there is no schema for this file.-->
++  <CyGuid_7d237aff-d944-11da-aaba-00164119d63b type_name="CyGpif2Designer.Common.PrjMgmt.Model.CyPrjMgmtGpif2exe" version="2">
++    <CyGuid_7d237b00-d944-11da-aaba-00164119d63b type_name="CyGpif2Designer.Common.PrjMgmt.Model.CyPrjMgmtProject" version="1">
++      <ProjectDocs>
++        <CyGuid_7d237b03-d944-11da-aaba-00164119d63b type_name="CyGpif2Designer.Common.PrjMgmt.Model.CyPrjMgmtItem" name="gpif2model.xml" persistent="./projectfiles/gpif2model.xml" target="7d237b02-d944-11da-aaba-00164119d63b">
++          <Hidden v="False" />
++        </CyGuid_7d237b03-d944-11da-aaba-00164119d63b>
++        <CyGuid_7d237b03-d944-11da-aaba-00164119d63b type_name="CyGpif2Designer.Common.PrjMgmt.Model.CyPrjMgmtItem" name="gpif2view.xml" persistent="./projectfiles/gpif2view.xml" target="7d237b01-d944-11da-aaba-00164119d63b">
++          <Hidden v="False" />
++        </CyGuid_7d237b03-d944-11da-aaba-00164119d63b>
++        <CyGuid_7d237b03-d944-11da-aaba-00164119d63b type_name="CyGpif2Designer.Common.PrjMgmt.Model.CyPrjMgmtItem" name="gpif2timingsimulation.xml" persistent="./projectfiles/gpif2timingsimulation.xml" target="3ad448c6-d155-4f76-a7fb-e760cd8e6feb">
++          <Hidden v="False" />
++        </CyGuid_7d237b03-d944-11da-aaba-00164119d63b>
++      </ProjectDocs>
++      <OutputDocs>
++        <CyGuid_7d237b03-d944-11da-aaba-00164119d63b type_name="CyGpif2Designer.Common.PrjMgmt.Model.CyPrjMgmtItem" name="cyfxgpif2config.h" persistent="C:\Users\Giovanni Camurati\Desktop\phdTemporary\AN65974\FX3 Firmware\GPIFII_Designer_sync_SlaveFIFO.cydsn\cyfxgpif2config.h" target="7d237afd-d944-11da-aaba-00164119d63b">
++          <Hidden v="False" />
++        </CyGuid_7d237b03-d944-11da-aaba-00164119d63b>
++      </OutputDocs>
++    </CyGuid_7d237b00-d944-11da-aaba-00164119d63b>
++    <Settings>
++      <Setting name="GPIF2_OutputName" value="cyfxgpif2config" />
++      <Setting name="GPIF2_OutputLocation" value="${ProjectDir}" />
++      <Setting name="GPIF2_Template" value="cygpif2cheadertemplate" />
++    </Settings>
++  </CyGuid_7d237aff-d944-11da-aaba-00164119d63b>
+ </CyXmlSerializer>
+\ No newline at end of file
+diff --git a/slfifosync/GPIFII_Designer_sync_SlaveFIFO.cydsn/projectfiles/gpif2model.xml b/slfifosync/GPIFII_Designer_sync_SlaveFIFO.cydsn/projectfiles/gpif2model.xml
+index 270d723..11fadf9 100755
+--- a/slfifosync/GPIFII_Designer_sync_SlaveFIFO.cydsn/projectfiles/gpif2model.xml
++++ b/slfifosync/GPIFII_Designer_sync_SlaveFIFO.cydsn/projectfiles/gpif2model.xml
+@@ -3,7 +3,7 @@
+   <InterfaceDefination>
+     <InterfaceSetting>
+       <I2SEnabled>False</I2SEnabled>
+-      <I2CEnabled>False</I2CEnabled>
++      <I2CEnabled>True</I2CEnabled>
+       <SPIEnabled>False</SPIEnabled>
+       <I2SEnabled>False</I2SEnabled>
+       <ADMuxedEnabled>False</ADMuxedEnabled>
+@@ -11,35 +11,20 @@
+       <CommunicationType>Synchronous</CommunicationType>
+       <ClockSource>External</ClockSource>
+       <ClockEdge>Positive</ClockEdge>
+-      <Endianness>LittleEndian</Endianness>
++      <Endianness>BigEndian</Endianness>
+       <DataBusWidth>Bit32</DataBusWidth>
+-      <AddressBuswidth>4</AddressBuswidth>
++      <AddressBuswidth>2</AddressBuswidth>
+     </InterfaceSetting>
+   </InterfaceDefination>
+   <Signals>
+     <Signal ElementId="INPUT0" SignalType="Input" SpecialFunction="OE">
+       <DisplayName>SLOE</DisplayName>
+       <GPIOPinNumber>GPIO_19</GPIOPinNumber>
+-      <Polarity>ActiveLow</Polarity>
+-    </Signal>
+-    <Signal ElementId="INPUT1" SignalType="Input" SpecialFunction="None">
+-      <DisplayName>SLCS</DisplayName>
+-      <GPIOPinNumber>GPIO_17</GPIOPinNumber>
+-      <Polarity>ActiveLow</Polarity>
+-    </Signal>
+-    <Signal ElementId="INPUT2" SignalType="Input" SpecialFunction="None">
+-      <DisplayName>SLWR</DisplayName>
+-      <GPIOPinNumber>GPIO_18</GPIOPinNumber>
+-      <Polarity>ActiveLow</Polarity>
++      <Polarity>ActiveHigh</Polarity>
+     </Signal>
+     <Signal ElementId="INPUT3" SignalType="Input" SpecialFunction="None">
+       <DisplayName>SLRD</DisplayName>
+-      <GPIOPinNumber>GPIO_20</GPIOPinNumber>
+-      <Polarity>ActiveLow</Polarity>
+-    </Signal>
+-    <Signal ElementId="INPUT4" SignalType="Input" SpecialFunction="None">
+-      <DisplayName>PKEND</DisplayName>
+-      <GPIOPinNumber>GPIO_24</GPIOPinNumber>
++      <GPIOPinNumber>GPIO_18</GPIOPinNumber>
+       <Polarity>ActiveLow</Polarity>
+     </Signal>
+     <Signal ElementId="FLAG0" SignalType="Flags" SpecialFunction="None">
+@@ -49,13 +34,6 @@
+       <Polarity>ActiveLow</Polarity>
+       <Flags>Thread_0_DMA_Ready</Flags>
+     </Signal>
+-    <Signal ElementId="FLAG1" SignalType="Flags" SpecialFunction="None">
+-      <DisplayName>FLAGB</DisplayName>
+-      <GPIOPinNumber>GPIO_22</GPIOPinNumber>
+-      <IntialValue>Low</IntialValue>
+-      <Polarity>ActiveLow</Polarity>
+-      <Flags>Thread_0_DMA_WaterMark</Flags>
+-    </Signal>
+     <Signal ElementId="FLAG2" SignalType="Flags" SpecialFunction="None">
+       <DisplayName>FLAGC</DisplayName>
+       <GPIOPinNumber>GPIO_23</GPIOPinNumber>
+@@ -63,13 +41,6 @@
+       <Polarity>ActiveLow</Polarity>
+       <Flags>Thread_3_DMA_Ready</Flags>
+     </Signal>
+-    <Signal ElementId="FLAG3" SignalType="Flags" SpecialFunction="None">
+-      <DisplayName>FLAGD</DisplayName>
+-      <GPIOPinNumber>GPIO_25</GPIOPinNumber>
+-      <IntialValue>Low</IntialValue>
+-      <Polarity>ActiveLow</Polarity>
+-      <Flags>Thread_3_DMA_WaterMark</Flags>
+-    </Signal>
+   </Signals>
+   <StateMachine>
+     <AddressCounter />
+@@ -101,7 +72,7 @@
+       <Action ElementId="DR_DATA0" ActionType="DR_DATA">
+         <IsDataCounterConnected>False</IsDataCounterConnected>
+         <DataSourceSink>Socket</DataSourceSink>
+-        <ThreadNumber>Thread0</ThreadNumber>
++        <ThreadNumber>Thread3</ThreadNumber>
+         <SyncBurstMode>Enable</SyncBurstMode>
+         <DriveNewData>DriveNewData</DriveNewData>
+         <UpdateSource>True</UpdateSource>
+@@ -126,28 +97,25 @@
+         <A7Override>DMAAccessAndRegisterAccess</A7Override>
+       </Action>
+     </State>
+-    <State ElementId="STATE4" StateType="NormalState">
+-      <DisplayName>SHORT_PKT</DisplayName>
+-      <RepeatUntillNextTransition>False</RepeatUntillNextTransition>
++    <State ElementId="STATE5" StateType="NormalState">
++      <DisplayName>WAIT</DisplayName>
++      <RepeatUntillNextTransition>True</RepeatUntillNextTransition>
+       <RepeatCount>0</RepeatCount>
+-      <Action ElementId="COMMIT0" ActionType="COMMIT">
+-        <ThreadNumber>Thread0</ThreadNumber>
++      <Action ElementId="IN_ADDR0" ActionType="IN_ADDR">
++        <SampleAddressType>ThreadSelection</SampleAddressType>
++        <A7Override>DMAAccessAndRegisterAccess</A7Override>
+       </Action>
++    </State>
++    <State ElementId="STATE4" StateType="NormalState">
++      <DisplayName>WRITE2</DisplayName>
++      <RepeatUntillNextTransition>True</RepeatUntillNextTransition>
++      <RepeatCount>0</RepeatCount>
+       <Action ElementId="IN_DATA0" ActionType="IN_DATA">
+         <DataSourceSink>Socket</DataSourceSink>
+         <ThreadNumber>Thread0</ThreadNumber>
+         <SampleData>True</SampleData>
+         <WriteDataIntoDataSink>True</WriteDataIntoDataSink>
+       </Action>
+-      <Action ElementId="IN_ADDR0" ActionType="IN_ADDR">
+-        <SampleAddressType>ThreadSelection</SampleAddressType>
+-        <A7Override>DMAAccessAndRegisterAccess</A7Override>
+-      </Action>
+-    </State>
+-    <State ElementId="STATE5" StateType="NormalState">
+-      <DisplayName>ZLP</DisplayName>
+-      <RepeatUntillNextTransition>False</RepeatUntillNextTransition>
+-      <RepeatCount>0</RepeatCount>
+       <Action ElementId="COMMIT0" ActionType="COMMIT">
+         <ThreadNumber>Thread0</ThreadNumber>
+       </Action>
+@@ -156,30 +124,12 @@
+         <A7Override>DMAAccessAndRegisterAccess</A7Override>
+       </Action>
+     </State>
+-    <State ElementId="STATE0" StateType="NormalState">
+-      <DisplayName>DSS_STATE</DisplayName>
+-      <RepeatUntillNextTransition>True</RepeatUntillNextTransition>
+-      <RepeatCount>0</RepeatCount>
+-      <Action ElementId="IN_ADDR0" ActionType="IN_ADDR">
+-        <SampleAddressType>ThreadSelection</SampleAddressType>
+-        <A7Override>DMAAccessAndRegisterAccess</A7Override>
+-      </Action>
+-    </State>
++    <Transition ElementId="TRANSITION8" SourceState="STATE4" DestinationState="STATE1" Equation="LOGIC_ONE" />
+     <Transition ElementId="TRANSITION1" SourceState="STARTSTATE1" DestinationState="STATE1" Equation="LOGIC_ONE" />
+-    <Transition ElementId="TRANSITION2" SourceState="STATE1" DestinationState="STATE2" Equation="SLWR&amp;!SLCS&amp;PKEND&amp;!SLRD&amp;!SLOE" />
+-    <Transition ElementId="TRANSITION3" SourceState="STATE1" DestinationState="STATE3" Equation="!SLWR&amp;!SLCS&amp;PKEND&amp;SLRD" />
+-    <Transition ElementId="TRANSITION4" SourceState="STATE1" DestinationState="STATE4" Equation="!SLWR&amp;!SLCS&amp;!PKEND&amp;SLRD" />
+-    <Transition ElementId="TRANSITION5" SourceState="STATE1" DestinationState="STATE5" Equation="SLWR&amp;!SLCS&amp;!PKEND&amp;SLRD" />
+-    <Transition ElementId="TRANSITION6" SourceState="STATE5" DestinationState="STATE1" Equation="PKEND" />
+-    <Transition ElementId="TRANSITION7" SourceState="STATE2" DestinationState="STATE1" Equation="SLRD|SLCS|SLOE" />
+-    <Transition ElementId="TRANSITION8" SourceState="STATE3" DestinationState="STATE1" Equation="(PKEND&amp;SLWR)|SLCS" />
+-    <Transition ElementId="TRANSITION9" SourceState="STATE3" DestinationState="STATE4" Equation="!SLWR&amp;!PKEND" />
+-    <Transition ElementId="TRANSITION10" SourceState="STATE4" DestinationState="STATE1" Equation="PKEND|SLCS|SLWR" />
+-    <Transition ElementId="TRANSITION0" SourceState="STATE1" DestinationState="STATE0" Equation="SLWR&amp;!SLCS&amp;PKEND&amp;SLRD" />
+-    <Transition ElementId="TRANSITION11" SourceState="STATE0" DestinationState="STATE2" Equation="SLWR&amp;!SLCS&amp;PKEND&amp;!SLRD&amp;!SLOE" />
+-    <Transition ElementId="TRANSITION12" SourceState="STATE0" DestinationState="STATE3" Equation="!SLWR&amp;!SLCS&amp;PKEND&amp;SLRD" />
+-    <Transition ElementId="TRANSITION13" SourceState="STATE0" DestinationState="STATE4" Equation="!SLWR&amp;!SLCS&amp;!PKEND&amp;SLRD" />
+-    <Transition ElementId="TRANSITION14" SourceState="STATE0" DestinationState="STATE5" Equation="SLWR&amp;!SLCS&amp;!PKEND&amp;SLRD" />
+-    <Transition ElementId="TRANSITION15" SourceState="STATE0" DestinationState="STATE1" Equation="SLWR&amp;!SLCS&amp;PKEND&amp;SLRD" />
++    <Transition ElementId="TRANSITION2" SourceState="STATE1" DestinationState="STATE2" Equation="SLRD&amp;SLOE" />
++    <Transition ElementId="TRANSITION3" SourceState="STATE1" DestinationState="STATE3" Equation="SLRD&amp;!SLOE" />
++    <Transition ElementId="TRANSITION7" SourceState="STATE2" DestinationState="STATE1" Equation="!SLRD|!SLOE" />
++    <Transition ElementId="TRANSITION5" SourceState="STATE3" DestinationState="STATE5" Equation="!SLRD" />
++    <Transition ElementId="TRANSITION6" SourceState="STATE5" DestinationState="STATE4" Equation="SLRD&amp;!SLOE" />
+   </StateMachine>
+ </GPIFIIModel>
+\ No newline at end of file
+diff --git a/slfifosync/GPIFII_Designer_sync_SlaveFIFO.cydsn/projectfiles/gpif2timingsimulation.xml b/slfifosync/GPIFII_Designer_sync_SlaveFIFO.cydsn/projectfiles/gpif2timingsimulation.xml
+index 6c1f6c8..1ca5bec 100755
+--- a/slfifosync/GPIFII_Designer_sync_SlaveFIFO.cydsn/projectfiles/gpif2timingsimulation.xml
++++ b/slfifosync/GPIFII_Designer_sync_SlaveFIFO.cydsn/projectfiles/gpif2timingsimulation.xml
+@@ -3,7 +3,7 @@
+   <Clock>100</Clock>
+   <BufferSize>512</BufferSize>
+   <WaterMark>0</WaterMark>
+-  <Scenario Name="Read" CurrentThread="Thread0">
++  <Scenario Name="Read" CurrentThread="Thread3">
+     <State StateId="STARTSTATE1" WaitNumber="0" />
+     <State StateId="STATE1" WaitNumber="0" />
+     <State StateId="STATE2" WaitNumber="0" />
+@@ -13,19 +13,14 @@
+     <State StateId="STARTSTATE1" WaitNumber="0" />
+     <State StateId="STATE1" WaitNumber="0" />
+     <State StateId="STATE3" WaitNumber="0" />
+-    <State StateId="STATE1" WaitNumber="0" />
+   </Scenario>
+   <Scenario Name="ShortPkt" CurrentThread="Thread0">
+     <State StateId="STARTSTATE1" WaitNumber="0" />
+     <State StateId="STATE1" WaitNumber="0" />
+-    <State StateId="STATE4" WaitNumber="0" />
+-    <State StateId="STATE1" WaitNumber="0" />
+   </Scenario>
+   <Scenario Name="ZLP" CurrentThread="Thread0">
+     <State StateId="STARTSTATE1" WaitNumber="0" />
+     <State StateId="STATE1" WaitNumber="0" />
+-    <State StateId="STATE5" WaitNumber="0" />
+-    <State StateId="STATE1" WaitNumber="0" />
+   </Scenario>
+   <Scenario Name="BurstRead" CurrentThread="Thread0">
+     <State StateId="STARTSTATE1" WaitNumber="0" />
+@@ -44,6 +39,5 @@
+     <State StateId="STATE3" WaitNumber="0" />
+     <State StateId="STATE3" WaitNumber="0" />
+     <State StateId="STATE3" WaitNumber="0" />
+-    <State StateId="STATE1" WaitNumber="0" />
+   </Scenario>
+ </GPIFIITimingSimulation>
+\ No newline at end of file
+diff --git a/slfifosync/GPIFII_Designer_sync_SlaveFIFO.cydsn/projectfiles/gpif2view.xml b/slfifosync/GPIFII_Designer_sync_SlaveFIFO.cydsn/projectfiles/gpif2view.xml
+index 15d3ec0..49c6f0c 100755
+--- a/slfifosync/GPIFII_Designer_sync_SlaveFIFO.cydsn/projectfiles/gpif2view.xml
++++ b/slfifosync/GPIFII_Designer_sync_SlaveFIFO.cydsn/projectfiles/gpif2view.xml
+@@ -24,8 +24,8 @@
+       <ParentID>00000000-0000-0000-0000-000000000000</ParentID>
+     </CyNormalState>
+     <CyNormalState>
+-      <Left>518</Left>
+-      <Top>345.487206485292</Top>
++      <Left>834</Left>
++      <Top>297.487206485292</Top>
+       <Width>83</Width>
+       <Height>70</Height>
+       <Name>STATE3</Name>
+@@ -35,34 +35,23 @@
+       <ParentID>00000000-0000-0000-0000-000000000000</ParentID>
+     </CyNormalState>
+     <CyNormalState>
+-      <Left>728</Left>
+-      <Top>109.446666666667</Top>
++      <Left>575</Left>
++      <Top>438.41</Top>
+       <Width>83</Width>
+       <Height>70</Height>
+       <Name>STATE4</Name>
+-      <DisplayName>SHORT_PKT</DisplayName>
++      <DisplayName>WRITE2</DisplayName>
+       <zIndex>1</zIndex>
+       <IsGroup>False</IsGroup>
+       <ParentID>00000000-0000-0000-0000-000000000000</ParentID>
+     </CyNormalState>
+     <CyNormalState>
+-      <Left>13</Left>
+-      <Top>91.446666666667</Top>
++      <Left>708</Left>
++      <Top>438.41</Top>
+       <Width>83</Width>
+       <Height>70</Height>
+       <Name>STATE5</Name>
+-      <DisplayName>ZLP</DisplayName>
+-      <zIndex>1</zIndex>
+-      <IsGroup>False</IsGroup>
+-      <ParentID>00000000-0000-0000-0000-000000000000</ParentID>
+-    </CyNormalState>
+-    <CyNormalState>
+-      <Left>271</Left>
+-      <Top>343.446666666667</Top>
+-      <Width>83</Width>
+-      <Height>70</Height>
+-      <Name>STATE0</Name>
+-      <DisplayName>DSS_STATE</DisplayName>
++      <DisplayName>WAIT</DisplayName>
+       <zIndex>1</zIndex>
+       <IsGroup>False</IsGroup>
+       <ParentID>00000000-0000-0000-0000-000000000000</ParentID>
+@@ -81,9 +70,9 @@
+   </CyStates>
+   <CyTransitions>
+     <CyTransition>
+-      <Name>TRANSITION15</Name>
+-      <TransitionEquation>SLWR&amp;!SLCS&amp;PKEND&amp;SLRD</TransitionEquation>
+-      <SourceName>STATE0</SourceName>
++      <Name>TRANSITION8</Name>
++      <TransitionEquation>LOGIC_ONE</TransitionEquation>
++      <SourceName>STATE4</SourceName>
+       <SinkName>STATE1</SinkName>
+       <SourceConnectorName>Connector</SourceConnectorName>
+       <SinkConnectorName>Connector</SinkConnectorName>
+@@ -92,20 +81,9 @@
+       <zIndex>0</zIndex>
+     </CyTransition>
+     <CyTransition>
+-      <Name>TRANSITION14</Name>
+-      <TransitionEquation>SLWR&amp;!SLCS&amp;!PKEND&amp;SLRD</TransitionEquation>
+-      <SourceName>STATE0</SourceName>
+-      <SinkName>STATE5</SinkName>
+-      <SourceConnectorName>Connector</SourceConnectorName>
+-      <SinkConnectorName>Connector</SinkConnectorName>
+-      <SourceArrowSymbol>None</SourceArrowSymbol>
+-      <SinkArrowSymbol>Arrow</SinkArrowSymbol>
+-      <zIndex>0</zIndex>
+-    </CyTransition>
+-    <CyTransition>
+-      <Name>TRANSITION13</Name>
+-      <TransitionEquation>!SLWR&amp;!SLCS&amp;!PKEND&amp;SLRD</TransitionEquation>
+-      <SourceName>STATE0</SourceName>
++      <Name>TRANSITION6</Name>
++      <TransitionEquation>SLRD&amp;!SLOE</TransitionEquation>
++      <SourceName>STATE5</SourceName>
+       <SinkName>STATE4</SinkName>
+       <SourceConnectorName>Connector</SourceConnectorName>
+       <SinkConnectorName>Connector</SinkConnectorName>
+@@ -114,32 +92,10 @@
+       <zIndex>0</zIndex>
+     </CyTransition>
+     <CyTransition>
+-      <Name>TRANSITION12</Name>
+-      <TransitionEquation>!SLWR&amp;!SLCS&amp;PKEND&amp;SLRD</TransitionEquation>
+-      <SourceName>STATE0</SourceName>
+-      <SinkName>STATE3</SinkName>
+-      <SourceConnectorName>Connector</SourceConnectorName>
+-      <SinkConnectorName>Connector</SinkConnectorName>
+-      <SourceArrowSymbol>None</SourceArrowSymbol>
+-      <SinkArrowSymbol>Arrow</SinkArrowSymbol>
+-      <zIndex>0</zIndex>
+-    </CyTransition>
+-    <CyTransition>
+-      <Name>TRANSITION11</Name>
+-      <TransitionEquation>SLWR&amp;!SLCS&amp;PKEND&amp;!SLRD&amp;!SLOE</TransitionEquation>
+-      <SourceName>STATE0</SourceName>
+-      <SinkName>STATE2</SinkName>
+-      <SourceConnectorName>Connector</SourceConnectorName>
+-      <SinkConnectorName>Connector</SinkConnectorName>
+-      <SourceArrowSymbol>None</SourceArrowSymbol>
+-      <SinkArrowSymbol>Arrow</SinkArrowSymbol>
+-      <zIndex>0</zIndex>
+-    </CyTransition>
+-    <CyTransition>
+-      <Name>TRANSITION0</Name>
+-      <TransitionEquation>SLWR&amp;!SLCS&amp;PKEND&amp;SLRD</TransitionEquation>
+-      <SourceName>STATE1</SourceName>
+-      <SinkName>STATE0</SinkName>
++      <Name>TRANSITION5</Name>
++      <TransitionEquation>!SLRD</TransitionEquation>
++      <SourceName>STATE3</SourceName>
++      <SinkName>STATE5</SinkName>
+       <SourceConnectorName>Connector</SourceConnectorName>
+       <SinkConnectorName>Connector</SinkConnectorName>
+       <SourceArrowSymbol>None</SourceArrowSymbol>
+@@ -159,7 +115,7 @@
+     </CyTransition>
+     <CyTransition>
+       <Name>TRANSITION2</Name>
+-      <TransitionEquation>SLWR&amp;!SLCS&amp;PKEND&amp;!SLRD&amp;!SLOE</TransitionEquation>
++      <TransitionEquation>SLRD&amp;SLOE</TransitionEquation>
+       <SourceName>STATE1</SourceName>
+       <SinkName>STATE2</SinkName>
+       <SourceConnectorName>Connector</SourceConnectorName>
+@@ -170,7 +126,7 @@
+     </CyTransition>
+     <CyTransition>
+       <Name>TRANSITION3</Name>
+-      <TransitionEquation>!SLWR&amp;!SLCS&amp;PKEND&amp;SLRD</TransitionEquation>
++      <TransitionEquation>SLRD&amp;!SLOE</TransitionEquation>
+       <SourceName>STATE1</SourceName>
+       <SinkName>STATE3</SinkName>
+       <SourceConnectorName>Connector</SourceConnectorName>
+@@ -179,42 +135,9 @@
+       <SinkArrowSymbol>Arrow</SinkArrowSymbol>
+       <zIndex>0</zIndex>
+     </CyTransition>
+-    <CyTransition>
+-      <Name>TRANSITION4</Name>
+-      <TransitionEquation>!SLWR&amp;!SLCS&amp;!PKEND&amp;SLRD</TransitionEquation>
+-      <SourceName>STATE1</SourceName>
+-      <SinkName>STATE4</SinkName>
+-      <SourceConnectorName>Connector</SourceConnectorName>
+-      <SinkConnectorName>Connector</SinkConnectorName>
+-      <SourceArrowSymbol>None</SourceArrowSymbol>
+-      <SinkArrowSymbol>Arrow</SinkArrowSymbol>
+-      <zIndex>0</zIndex>
+-    </CyTransition>
+-    <CyTransition>
+-      <Name>TRANSITION5</Name>
+-      <TransitionEquation>SLWR&amp;!SLCS&amp;!PKEND&amp;SLRD</TransitionEquation>
+-      <SourceName>STATE1</SourceName>
+-      <SinkName>STATE5</SinkName>
+-      <SourceConnectorName>Connector</SourceConnectorName>
+-      <SinkConnectorName>Connector</SinkConnectorName>
+-      <SourceArrowSymbol>None</SourceArrowSymbol>
+-      <SinkArrowSymbol>Arrow</SinkArrowSymbol>
+-      <zIndex>0</zIndex>
+-    </CyTransition>
+-    <CyTransition>
+-      <Name>TRANSITION6</Name>
+-      <TransitionEquation>PKEND</TransitionEquation>
+-      <SourceName>STATE5</SourceName>
+-      <SinkName>STATE1</SinkName>
+-      <SourceConnectorName>Connector</SourceConnectorName>
+-      <SinkConnectorName>Connector</SinkConnectorName>
+-      <SourceArrowSymbol>None</SourceArrowSymbol>
+-      <SinkArrowSymbol>Arrow</SinkArrowSymbol>
+-      <zIndex>0</zIndex>
+-    </CyTransition>
+     <CyTransition>
+       <Name>TRANSITION7</Name>
+-      <TransitionEquation>SLRD|SLCS|SLOE</TransitionEquation>
++      <TransitionEquation>!SLRD|!SLOE</TransitionEquation>
+       <SourceName>STATE2</SourceName>
+       <SinkName>STATE1</SinkName>
+       <SourceConnectorName>Connector</SourceConnectorName>
+@@ -223,38 +146,5 @@
+       <SinkArrowSymbol>Arrow</SinkArrowSymbol>
+       <zIndex>0</zIndex>
+     </CyTransition>
+-    <CyTransition>
+-      <Name>TRANSITION8</Name>
+-      <TransitionEquation>(PKEND&amp;SLWR)|SLCS</TransitionEquation>
+-      <SourceName>STATE3</SourceName>
+-      <SinkName>STATE1</SinkName>
+-      <SourceConnectorName>Connector</SourceConnectorName>
+-      <SinkConnectorName>Connector</SinkConnectorName>
+-      <SourceArrowSymbol>None</SourceArrowSymbol>
+-      <SinkArrowSymbol>Arrow</SinkArrowSymbol>
+-      <zIndex>0</zIndex>
+-    </CyTransition>
+-    <CyTransition>
+-      <Name>TRANSITION9</Name>
+-      <TransitionEquation>!SLWR&amp;!PKEND</TransitionEquation>
+-      <SourceName>STATE3</SourceName>
+-      <SinkName>STATE4</SinkName>
+-      <SourceConnectorName>Connector</SourceConnectorName>
+-      <SinkConnectorName>Connector</SinkConnectorName>
+-      <SourceArrowSymbol>None</SourceArrowSymbol>
+-      <SinkArrowSymbol>Arrow</SinkArrowSymbol>
+-      <zIndex>0</zIndex>
+-    </CyTransition>
+-    <CyTransition>
+-      <Name>TRANSITION10</Name>
+-      <TransitionEquation>PKEND|SLCS|SLWR</TransitionEquation>
+-      <SourceName>STATE4</SourceName>
+-      <SinkName>STATE1</SinkName>
+-      <SourceConnectorName>Connector</SourceConnectorName>
+-      <SinkConnectorName>Connector</SinkConnectorName>
+-      <SourceArrowSymbol>None</SourceArrowSymbol>
+-      <SinkArrowSymbol>Arrow</SinkArrowSymbol>
+-      <zIndex>0</zIndex>
+-    </CyTransition>
+   </CyTransitions>
+ </Root>
+\ No newline at end of file
+diff --git a/slfifosync/cyfx_gcc_startup.S b/slfifosync/cyfx_gcc_startup.S
+index 4887b34..c37c1e0 100755
+--- a/slfifosync/cyfx_gcc_startup.S
++++ b/slfifosync/cyfx_gcc_startup.S
+@@ -1,56 +1,56 @@
+-#  Copyright Cypress Semiconductor Corporation, 2010-2018,
+-#  All Rights Reserved
+-#  UNPUBLISHED, LICENSED SOFTWARE.
+-#
+-#  CONFIDENTIAL AND PROPRIETARY INFORMATION
+-#  WHICH IS THE PROPERTY OF CYPRESS.
+-#
+-#  Use of this file is governed
+-#  by the license agreement included in the file
+-#
+-#     <install>/license/license.txt
+-#
+-#  where <install> is the Cypress software
+-#  installation root directory path.
+-#
+-
+-# Cypress FX3 Firmware Startup code
+-
+-
+-.section .text
+-.code 32
+-
+-.global jump
+-jump:
+-    bx  R0
+-
+-.global CyU3PToolChainInit
+-CyU3PToolChainInit:
+-
+-# clear the BSS area
+-__main:
+-	mov	R0, #0
+-	ldr	R1, =_bss_start
+-	ldr	R2, =_bss_end
+-1:	cmp	R1, R2
+-	strlo	R0, [R1], #4
+-	blo	1b
+-
+-	b	main
+-
+-
+-.global __user_initial_stackheap
+-__user_initial_stackheap:
+-
+-# The tool chain is not expected to place the stack.
+-# No heap is expected to be used by USB 3.0 platform drivers.
+-# Place them as required by the user code
+-.if  INTER == TRUE
+-    bx      lr                 
+-.else
+-    mov     pc, lr             
+-.endif
+-
+-.end
+-
+-# []
++#  Copyright Cypress Semiconductor Corporation, 2010-2018,
++#  All Rights Reserved
++#  UNPUBLISHED, LICENSED SOFTWARE.
++#
++#  CONFIDENTIAL AND PROPRIETARY INFORMATION
++#  WHICH IS THE PROPERTY OF CYPRESS.
++#
++#  Use of this file is governed
++#  by the license agreement included in the file
++#
++#     <install>/license/license.txt
++#
++#  where <install> is the Cypress software
++#  installation root directory path.
++#
++
++# Cypress FX3 Firmware Startup code
++
++
++.section .text
++.code 32
++
++.global jump
++jump:
++    bx  R0
++
++.global CyU3PToolChainInit
++CyU3PToolChainInit:
++
++# clear the BSS area
++__main:
++	mov	R0, #0
++	ldr	R1, =_bss_start
++	ldr	R2, =_bss_end
++1:	cmp	R1, R2
++	strlo	R0, [R1], #4
++	blo	1b
++
++	b	main
++
++
++.global __user_initial_stackheap
++__user_initial_stackheap:
++
++# The tool chain is not expected to place the stack.
++# No heap is expected to be used by USB 3.0 platform drivers.
++# Place them as required by the user code
++.if  INTER == TRUE
++    bx      lr                 
++.else
++    mov     pc, lr             
++.endif
++
++.end
++
++# []
+diff --git a/slfifosync/cyfxgpif2config.h b/slfifosync/cyfxgpif2config.h
+new file mode 100644
+index 0000000..37577fe
+--- /dev/null
++++ b/slfifosync/cyfxgpif2config.h
+@@ -0,0 +1,176 @@
++/*
++ * Project Name: GPIFII_Designer_sync_SlaveFIFO.cyfx
++ * Time : 04/27/2017 01:33:37
++ * Device Type: FX3
++ * Project Type: GPIF2
++ *
++ *
++ *
++ *
++ * This is a generated file and should not be modified
++ * This file need to be included only once in the firmware
++ * This file is generated by Gpif2 designer tool version - 1.0.837.1
++ * 
++ */
++
++#ifndef _INCLUDED_CYFXGPIF2CONFIG_
++#define _INCLUDED_CYFXGPIF2CONFIG_
++#include "cyu3types.h"
++#include "cyu3gpif.h"
++
++/* Summary
++   Number of states in the state machine
++ */
++#define CY_NUMBER_OF_STATES 9
++
++/* Summary
++   Mapping of user defined state names to state indices
++ */
++#define RESET 0
++#define IDLE 1
++#define READ 2
++#define WRITE 3
++#define WAIT 5
++#define WRITE2 6
++#define STATE0 4
++#define STATE6 7
++#define STATE7 8
++
++
++/* Summary
++   Initial value of early outputs from the state machine.
++ */
++#define ALPHA_RESET 0x0
++
++
++/* Summary
++   Transition function values used in the state machine.
++ */
++uint16_t CyFxGpifTransition[]  = {
++    0x0000, 0x4444, 0x0101, 0xFFFF, 0xBBBB, 0xAAAA, 0x1111, 0x5555
++};
++
++/* Summary
++   Table containing the transition information for various states. 
++   This table has to be stored in the WAVEFORM Registers.
++   This array consists of non-replicated waveform descriptors and acts as a 
++   waveform table. 
++ */
++CyU3PGpifWaveData CyFxGpifWavedata[]  = {
++    {{0x1E304101,0x0C0100C4,0x80000000},{0x00000000,0x00000000,0x00000000}},
++    {{0x4E704102,0x0C000000,0x80000000},{0x5E738103,0x20000000,0x80000000}},
++    {{0x6E704105,0x00000100,0x80000000},{0x00000000,0x00000000,0x00000000}},
++    {{0x7E738107,0x00000100,0x80000000},{0x00000000,0x00000000,0x00000000}},
++    {{0x3E739C06,0x20000000,0x80100000},{0x00000000,0x00000000,0x00000000}},
++    {{0x3E739C08,0x24000000,0x80100000},{0x00000000,0x00000000,0x00000000}},
++    {{0x00000000,0x00000000,0x00000000},{0x00000000,0x00000000,0x00000000}},
++    {{0x4E704102,0x0C000000,0x80000000},{0x5E738104,0x24000000,0x80000000}}
++};
++
++/* Summary
++   Table that maps state indices to the descriptor table indices.
++ */
++uint8_t CyFxGpifWavedataPosition[]  = {
++    0,1,0,2,3,4,0,5,0,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
++    6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
++    6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
++    6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
++    0,7,0,2,3,4,0,5,0
++};
++
++/* Summary
++   GPIF II configuration register values.
++ */
++uint32_t CyFxGpifRegValue[]  = {
++    0x80008780,  /*  CY_U3P_PIB_GPIF_CONFIG */
++    0x0000106C,  /*  CY_U3P_PIB_GPIF_BUS_CONFIG */
++    0x0B000001,  /*  CY_U3P_PIB_GPIF_BUS_CONFIG2 */
++    0x00000044,  /*  CY_U3P_PIB_GPIF_AD_CONFIG */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_STATUS */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_INTR */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_INTR_MASK */
++    0x00000082,  /*  CY_U3P_PIB_GPIF_SERIAL_IN_CONFIG */
++    0x00000782,  /*  CY_U3P_PIB_GPIF_SERIAL_OUT_CONFIG */
++    0x00001101,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_DIRECTION */
++    0x0000E7AA,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_DEFAULT */
++    0x00000053,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_POLARITY */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_TOGGLE */
++    0x00000011,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
++    0x00000010,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
++    0x00000013,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
++    0x00000006,  /*  CY_U3P_PIB_GPIF_CTRL_COUNT_CONFIG */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_COUNT_RESET */
++    0x0000FFFF,  /*  CY_U3P_PIB_GPIF_CTRL_COUNT_LIMIT */
++    0x0000010A,  /*  CY_U3P_PIB_GPIF_ADDR_COUNT_CONFIG */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_ADDR_COUNT_RESET */
++    0x0000FFFF,  /*  CY_U3P_PIB_GPIF_ADDR_COUNT_LIMIT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_STATE_COUNT_CONFIG */
++    0x0000FFFF,  /*  CY_U3P_PIB_GPIF_STATE_COUNT_LIMIT */
++    0x0000010A,  /*  CY_U3P_PIB_GPIF_DATA_COUNT_CONFIG */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_DATA_COUNT_RESET */
++    0x0000FFFF,  /*  CY_U3P_PIB_GPIF_DATA_COUNT_LIMIT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_COMP_VALUE */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_COMP_MASK */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_DATA_COMP_VALUE */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_DATA_COMP_MASK */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_ADDR_COMP_VALUE */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_ADDR_COMP_MASK */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_DATA_CTRL */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_INGRESS_DATA */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_INGRESS_DATA */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_INGRESS_DATA */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_INGRESS_DATA */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_EGRESS_DATA */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_EGRESS_DATA */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_EGRESS_DATA */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_EGRESS_DATA */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_INGRESS_ADDRESS */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_INGRESS_ADDRESS */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_INGRESS_ADDRESS */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_INGRESS_ADDRESS */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_EGRESS_ADDRESS */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_EGRESS_ADDRESS */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_EGRESS_ADDRESS */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_EGRESS_ADDRESS */
++    0x80010400,  /*  CY_U3P_PIB_GPIF_THREAD_CONFIG */
++    0x80010401,  /*  CY_U3P_PIB_GPIF_THREAD_CONFIG */
++    0x80010402,  /*  CY_U3P_PIB_GPIF_THREAD_CONFIG */
++    0x80010403,  /*  CY_U3P_PIB_GPIF_THREAD_CONFIG */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_LAMBDA_STAT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_ALPHA_STAT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_BETA_STAT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_WAVEFORM_CTRL_STAT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_WAVEFORM_SWITCH */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_WAVEFORM_SWITCH_TIMEOUT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CRC_CONFIG */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CRC_DATA */
++    0xFFFFFFC1  /*  CY_U3P_PIB_GPIF_BETA_DEASSERT */
++};
++
++/* Summary
++   This structure holds all the configuration inputs for the GPIF II. 
++ */
++const CyU3PGpifConfig_t CyFxGpifConfig  = {
++    (uint16_t)(sizeof(CyFxGpifWavedataPosition)/sizeof(uint8_t)),
++    CyFxGpifWavedata,
++    CyFxGpifWavedataPosition,
++    (uint16_t)(sizeof(CyFxGpifTransition)/sizeof(uint16_t)),
++    CyFxGpifTransition,
++    (uint16_t)(sizeof(CyFxGpifRegValue)/sizeof(uint32_t)),
++    CyFxGpifRegValue
++};
++
++#endif   /* _INCLUDED_CYFXGPIF2CONFIG_ */
+diff --git a/slfifosync/cyfxgpif_syncsf.h b/slfifosync/cyfxgpif_syncsf.h
+index bb054bb..cc1a7a0 100755
+--- a/slfifosync/cyfxgpif_syncsf.h
++++ b/slfifosync/cyfxgpif_syncsf.h
+@@ -1,180 +1,180 @@
+-/*
+- * Project Name: sync_slave_fifo_2bit_ANexample.cyfx
+- * Time : 08/31/2012 09:55:27
+- * Device Type: FX3
+- * Project Type: GPIF2
+- *
+- *
+- *
+- *
+- * This is a generated file and should not be modified
+- * This file need to be included only once in the firmware
+- * This file is generated by Gpif2 designer tool version - 1.0.837.1
+- * 
+- */
+-
+-#ifndef _INCLUDED_CYFXGPIF2CONFIG_
+-#define _INCLUDED_CYFXGPIF2CONFIG_
+-#include "cyu3types.h"
+-#include "cyu3gpif.h"
+-
+-/* Summary
+-   Number of states in the state machine
+- */
+-#define CY_NUMBER_OF_STATES 7
+-
+-/* Summary
+-   Mapping of user defined state names to state indices
+- */
+-#define RESET 0
+-#define IDLE 1
+-#define READ 2
+-#define WRITE 3
+-#define SHORT_PKT 4
+-#define ZLP 5
+-#define DSS_STATE 6
+-
+-
+-/* Summary
+-   Initial value of early outputs from the state machine.
+- */
+-#define ALPHA_RESET 0xC
+-
+-
+-/* Summary
+-   Transition function values used in the state machine.
+- */
+-uint16_t CyFxGpifTransition[]  = {
+-    0x0000, 0x8080, 0x2222, 0x5555, 0x7F7F, 0x1F1F, 0x8888
+-};
+-
+-/* Summary
+-   Table containing the transition information for various states. 
+-   This table has to be stored in the WAVEFORM Registers.
+-   This array consists of non-replicated waveform descriptors and acts as a 
+-   waveform table. 
+- */
+-CyU3PGpifWaveData CyFxGpifWavedata[]  = {
+-    {{0x1E086001,0x000302C4,0x80000000},{0x00000000,0x00000000,0x00000000}},
+-    {{0x4E080302,0x00000300,0x80000000},{0x1E086006,0x000302C4,0x80000000}},
+-    {{0x1E086001,0x000302C4,0x80000000},{0x4E040704,0x20000300,0xC0100000}},
+-    {{0x4E080302,0x00000300,0x80000000},{0x1E086001,0x000302C4,0x80000000}},
+-    {{0x00000000,0x00000000,0x00000000},{0x00000000,0x00000000,0x00000000}},
+-    {{0x00000000,0x00000000,0x00000000},{0x3E738705,0x00000300,0xC0100000}},
+-    {{0x00000000,0x00000000,0x00000000},{0x5E002703,0x2003030C,0x80000000}},
+-    {{0x00000000,0x00000000,0x00000000},{0x4E040704,0x20000300,0xC0100000}}
+-};
+-
+-/* Summary
+-   Table that maps state indices to the descriptor table indices.
+- */
+-uint8_t CyFxGpifWavedataPosition[]  = {
+-    0,1,0,2,0,0,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,
+-    4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,
+-    0,5,0,2,0,0,5,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,
+-    4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,
+-    0,6,0,2,0,0,6,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,
+-    4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,
+-    0,7,0,2,0,0,7
+-};
+-
+-/* Summary
+-   GPIF II configuration register values.
+- */
+-uint32_t CyFxGpifRegValue[]  = {
+-    0x80000380,  /*  CY_U3P_PIB_GPIF_CONFIG */
+-#if (CY_FX_SLFIFO_GPIF_16_32BIT_CONF_SELECT == 0)
+-    0x000010A7,  /*  CY_U3P_PIB_GPIF_BUS_CONFIG */
+-#elif (CY_FX_SLFIFO_GPIF_16_32BIT_CONF_SELECT ==1)
+-	0x000010AC, /* 32b data- CY_U3P_PIB_GPIF_BUS_CONFIG */
+-#endif
+-    0x01070002,  /*  CY_U3P_PIB_GPIF_BUS_CONFIG2 */
+-    0x00000044,  /*  CY_U3P_PIB_GPIF_AD_CONFIG */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_STATUS */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_INTR */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_INTR_MASK */
+-    0x00000082,  /*  CY_U3P_PIB_GPIF_SERIAL_IN_CONFIG */
+-    0x00000782,  /*  CY_U3P_PIB_GPIF_SERIAL_OUT_CONFIG */
+-    0x00011500,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_DIRECTION */
+-    0x0000FE8F,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_DEFAULT */
+-    0x000001FF,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_POLARITY */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_TOGGLE */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
+-    0x00000010,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
+-    0x00000014,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
+-    0x00000013,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
+-    0x00000017,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
+-    0x00000006,  /*  CY_U3P_PIB_GPIF_CTRL_COUNT_CONFIG */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_COUNT_RESET */
+-    0x0000FFFF,  /*  CY_U3P_PIB_GPIF_CTRL_COUNT_LIMIT */
+-    0x0000010A,  /*  CY_U3P_PIB_GPIF_ADDR_COUNT_CONFIG */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_ADDR_COUNT_RESET */
+-    0x0000FFFF,  /*  CY_U3P_PIB_GPIF_ADDR_COUNT_LIMIT */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_STATE_COUNT_CONFIG */
+-    0x0000FFFF,  /*  CY_U3P_PIB_GPIF_STATE_COUNT_LIMIT */
+-    0x0000010A,  /*  CY_U3P_PIB_GPIF_DATA_COUNT_CONFIG */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_DATA_COUNT_RESET */
+-    0x0000FFFF,  /*  CY_U3P_PIB_GPIF_DATA_COUNT_LIMIT */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_COMP_VALUE */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_COMP_MASK */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_DATA_COMP_VALUE */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_DATA_COMP_MASK */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_ADDR_COMP_VALUE */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_ADDR_COMP_MASK */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_DATA_CTRL */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_INGRESS_DATA */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_INGRESS_DATA */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_INGRESS_DATA */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_INGRESS_DATA */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_EGRESS_DATA */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_EGRESS_DATA */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_EGRESS_DATA */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_EGRESS_DATA */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_INGRESS_ADDRESS */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_INGRESS_ADDRESS */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_INGRESS_ADDRESS */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_INGRESS_ADDRESS */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_EGRESS_ADDRESS */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_EGRESS_ADDRESS */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_EGRESS_ADDRESS */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_EGRESS_ADDRESS */
+-    0x80010400,  /*  CY_U3P_PIB_GPIF_THREAD_CONFIG */
+-    0x80010401,  /*  CY_U3P_PIB_GPIF_THREAD_CONFIG */
+-    0x80010402,  /*  CY_U3P_PIB_GPIF_THREAD_CONFIG */
+-    0x80010403,  /*  CY_U3P_PIB_GPIF_THREAD_CONFIG */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_LAMBDA_STAT */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_ALPHA_STAT */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_BETA_STAT */
+-    0x000C0000,  /*  CY_U3P_PIB_GPIF_WAVEFORM_CTRL_STAT */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_WAVEFORM_SWITCH */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_WAVEFORM_SWITCH_TIMEOUT */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_CRC_CONFIG */
+-    0x00000000,  /*  CY_U3P_PIB_GPIF_CRC_DATA */
+-    0xFFFFFFC1  /*  CY_U3P_PIB_GPIF_BETA_DEASSERT */
+-};
+-
+-/* Summary
+-   This structure holds all the configuration inputs for the GPIF II. 
+- */
+-const CyU3PGpifConfig_t CyFxGpifConfig  = {
+-    (uint16_t)(sizeof(CyFxGpifWavedataPosition)/sizeof(uint8_t)),
+-    CyFxGpifWavedata,
+-    CyFxGpifWavedataPosition,
+-    (uint16_t)(sizeof(CyFxGpifTransition)/sizeof(uint16_t)),
+-    CyFxGpifTransition,
+-    (uint16_t)(sizeof(CyFxGpifRegValue)/sizeof(uint32_t)),
+-    CyFxGpifRegValue
+-};
+-
+-#endif   /* _INCLUDED_CYFXGPIF2CONFIG_ */
++/*
++ * Project Name: sync_slave_fifo_2bit_ANexample.cyfx
++ * Time : 08/31/2012 09:55:27
++ * Device Type: FX3
++ * Project Type: GPIF2
++ *
++ *
++ *
++ *
++ * This is a generated file and should not be modified
++ * This file need to be included only once in the firmware
++ * This file is generated by Gpif2 designer tool version - 1.0.837.1
++ * 
++ */
++
++#ifndef _INCLUDED_CYFXGPIF2CONFIG_
++#define _INCLUDED_CYFXGPIF2CONFIG_
++#include "cyu3types.h"
++#include "cyu3gpif.h"
++
++/* Summary
++   Number of states in the state machine
++ */
++#define CY_NUMBER_OF_STATES 7
++
++/* Summary
++   Mapping of user defined state names to state indices
++ */
++#define RESET 0
++#define IDLE 1
++#define READ 2
++#define WRITE 3
++#define SHORT_PKT 4
++#define ZLP 5
++#define DSS_STATE 6
++
++
++/* Summary
++   Initial value of early outputs from the state machine.
++ */
++#define ALPHA_RESET 0xC
++
++
++/* Summary
++   Transition function values used in the state machine.
++ */
++uint16_t CyFxGpifTransition[]  = {
++    0x0000, 0x8080, 0x2222, 0x5555, 0x7F7F, 0x1F1F, 0x8888
++};
++
++/* Summary
++   Table containing the transition information for various states. 
++   This table has to be stored in the WAVEFORM Registers.
++   This array consists of non-replicated waveform descriptors and acts as a 
++   waveform table. 
++ */
++CyU3PGpifWaveData CyFxGpifWavedata[]  = {
++    {{0x1E086001,0x000302C4,0x80000000},{0x00000000,0x00000000,0x00000000}},
++    {{0x4E080302,0x00000300,0x80000000},{0x1E086006,0x000302C4,0x80000000}},
++    {{0x1E086001,0x000302C4,0x80000000},{0x4E040704,0x20000300,0xC0100000}},
++    {{0x4E080302,0x00000300,0x80000000},{0x1E086001,0x000302C4,0x80000000}},
++    {{0x00000000,0x00000000,0x00000000},{0x00000000,0x00000000,0x00000000}},
++    {{0x00000000,0x00000000,0x00000000},{0x3E738705,0x00000300,0xC0100000}},
++    {{0x00000000,0x00000000,0x00000000},{0x5E002703,0x2003030C,0x80000000}},
++    {{0x00000000,0x00000000,0x00000000},{0x4E040704,0x20000300,0xC0100000}}
++};
++
++/* Summary
++   Table that maps state indices to the descriptor table indices.
++ */
++uint8_t CyFxGpifWavedataPosition[]  = {
++    0,1,0,2,0,0,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,
++    4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,
++    0,5,0,2,0,0,5,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,
++    4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,
++    0,6,0,2,0,0,6,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,
++    4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,
++    0,7,0,2,0,0,7
++};
++
++/* Summary
++   GPIF II configuration register values.
++ */
++uint32_t CyFxGpifRegValue[]  = {
++    0x80000380,  /*  CY_U3P_PIB_GPIF_CONFIG */
++#if (CY_FX_SLFIFO_GPIF_16_32BIT_CONF_SELECT == 0)
++    0x000010A7,  /*  CY_U3P_PIB_GPIF_BUS_CONFIG */
++#elif (CY_FX_SLFIFO_GPIF_16_32BIT_CONF_SELECT ==1)
++	0x000010AC, /* 32b data- CY_U3P_PIB_GPIF_BUS_CONFIG */
++#endif
++    0x01070002,  /*  CY_U3P_PIB_GPIF_BUS_CONFIG2 */
++    0x00000044,  /*  CY_U3P_PIB_GPIF_AD_CONFIG */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_STATUS */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_INTR */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_INTR_MASK */
++    0x00000082,  /*  CY_U3P_PIB_GPIF_SERIAL_IN_CONFIG */
++    0x00000782,  /*  CY_U3P_PIB_GPIF_SERIAL_OUT_CONFIG */
++    0x00011500,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_DIRECTION */
++    0x0000FE8F,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_DEFAULT */
++    0x000001FF,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_POLARITY */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_TOGGLE */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
++    0x00000010,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
++    0x00000014,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
++    0x00000013,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
++    0x00000017,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_BUS_SELECT */
++    0x00000006,  /*  CY_U3P_PIB_GPIF_CTRL_COUNT_CONFIG */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_COUNT_RESET */
++    0x0000FFFF,  /*  CY_U3P_PIB_GPIF_CTRL_COUNT_LIMIT */
++    0x0000010A,  /*  CY_U3P_PIB_GPIF_ADDR_COUNT_CONFIG */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_ADDR_COUNT_RESET */
++    0x0000FFFF,  /*  CY_U3P_PIB_GPIF_ADDR_COUNT_LIMIT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_STATE_COUNT_CONFIG */
++    0x0000FFFF,  /*  CY_U3P_PIB_GPIF_STATE_COUNT_LIMIT */
++    0x0000010A,  /*  CY_U3P_PIB_GPIF_DATA_COUNT_CONFIG */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_DATA_COUNT_RESET */
++    0x0000FFFF,  /*  CY_U3P_PIB_GPIF_DATA_COUNT_LIMIT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_COMP_VALUE */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CTRL_COMP_MASK */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_DATA_COMP_VALUE */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_DATA_COMP_MASK */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_ADDR_COMP_VALUE */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_ADDR_COMP_MASK */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_DATA_CTRL */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_INGRESS_DATA */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_INGRESS_DATA */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_INGRESS_DATA */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_INGRESS_DATA */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_EGRESS_DATA */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_EGRESS_DATA */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_EGRESS_DATA */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_EGRESS_DATA */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_INGRESS_ADDRESS */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_INGRESS_ADDRESS */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_INGRESS_ADDRESS */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_INGRESS_ADDRESS */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_EGRESS_ADDRESS */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_EGRESS_ADDRESS */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_EGRESS_ADDRESS */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_EGRESS_ADDRESS */
++    0x80010400,  /*  CY_U3P_PIB_GPIF_THREAD_CONFIG */
++    0x80010401,  /*  CY_U3P_PIB_GPIF_THREAD_CONFIG */
++    0x80010402,  /*  CY_U3P_PIB_GPIF_THREAD_CONFIG */
++    0x80010403,  /*  CY_U3P_PIB_GPIF_THREAD_CONFIG */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_LAMBDA_STAT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_ALPHA_STAT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_BETA_STAT */
++    0x000C0000,  /*  CY_U3P_PIB_GPIF_WAVEFORM_CTRL_STAT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_WAVEFORM_SWITCH */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_WAVEFORM_SWITCH_TIMEOUT */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CRC_CONFIG */
++    0x00000000,  /*  CY_U3P_PIB_GPIF_CRC_DATA */
++    0xFFFFFFC1  /*  CY_U3P_PIB_GPIF_BETA_DEASSERT */
++};
++
++/* Summary
++   This structure holds all the configuration inputs for the GPIF II. 
++ */
++const CyU3PGpifConfig_t CyFxGpifConfig  = {
++    (uint16_t)(sizeof(CyFxGpifWavedataPosition)/sizeof(uint8_t)),
++    CyFxGpifWavedata,
++    CyFxGpifWavedataPosition,
++    (uint16_t)(sizeof(CyFxGpifTransition)/sizeof(uint16_t)),
++    CyFxGpifTransition,
++    (uint16_t)(sizeof(CyFxGpifRegValue)/sizeof(uint32_t)),
++    CyFxGpifRegValue
++};
++
++#endif   /* _INCLUDED_CYFXGPIF2CONFIG_ */
+diff --git a/slfifosync/cyfxslfifosync.c b/slfifosync/cyfxslfifosync.c
+index 69f1dc3..b2271b3 100755
+--- a/slfifosync/cyfxslfifosync.c
++++ b/slfifosync/cyfxslfifosync.c
+@@ -2,7 +2,7 @@
+  ## Cypress USB 3.0 Platform source file (cyfxslfifosync.c)
+  ## ===========================
+  ##
+- ##  Copyright Cypress Semiconductor Corporation, 2010-2018,
++ ##  Copyright Cypress Semiconductor Corporation, 2010-2011,
+  ##  All Rights Reserved
+  ##  UNPUBLISHED, LICENSED SOFTWARE.
+  ##
+@@ -32,21 +32,30 @@
+    the appropriate GPIF registers. The p-port data transfers are done via the producer
+    p-port socket and the consumer p-port socket.
+ 
+-   This example implements two DMA Channels in MANUAL mode one for P to U data transfer
+-   and one for U to P data transfer.
++   This example implements two DMA Channels either in MANUAL mode or AUTO mode (depending
++   on #define MANUAL in cyfxslfifosync.h) one for P to U data transfer and one for U to P
++   data transfer.
+ 
+    The U to P DMA channel connects the USB producer (OUT) endpoint to the consumer p-port
+    socket. And the P to U DMA channel connects the producer p-port socket to the USB 
+    consumer (IN) endpoint.
+ 
+-   Upon every reception of data in the DMA buffer from the host or from the p-port, the
+-   CPU is signalled using DMA callbacks. There are two DMA callback functions implemented
+-   each for U to P and P to U data paths. The CPU then commits the DMA buffer received so
++   In case of MANUAL DMA channel, Upon every reception of data in the DMA buffer from the
++   host or from the p-port, the CPU is signaled using DMA callbacks. There are two DMA callback
++   functions implemented each for U to P and P to U data paths. The CPU then commits the DMA buffer received so
+    that the data is transferred to the consumer.
+ 
+-   The DMA buffer size for each channel is defined based on the USB speed. 64 for full
+-   speed, 512 for high speed and 1024 for super speed. CY_FX_SLFIFO_DMA_BUF_COUNT in the
+-   header file defines the number of DMA buffers per channel.
++   In case of AUTO DMA channel, the data will be transferred between U and P ports automatically
++   without any intervention from the CPU.
++
++   The DMA buffer size is configured differently based on the usage. #define LOOPBACK_SHRT_ZLP in cyfxslfifosync.h
++   configures the DMA buffers for doing data loopback. Also, DMA buffer for each channel is defined based on the
++   USB speed. 64 bytes for full speed, 512 bytes for high speed and 1024 bytes for super speed.
++   #define STREAM_IN_OUT in cyfxslfifosync.h configures the DMA buffers for higher bandwidth data transfers.
++   16*64 bytes for full speed, 16*512 bytes for high speed and 16*1024 bytes for super speed.
++
++   CY_FX_SLFIFO_DMA_BUF_COUNT_P_2_U in cyfxslfifosync.h defines the number of DMA buffers allocated for P to U data path.
++   CY_FX_SLFIFO_DMA_BUF_COUNT_U_2_P in cyfxslfifosync.h defines the number of DMA buffers allocated for U to P data path.
+ 
+    The constant CY_FX_SLFIFO_GPIF_16_32BIT_CONF_SELECT in the header file is used to
+    select 16bit or 32bit GPIF data bus configuration.
+@@ -61,22 +70,26 @@
+ #include "cyfxslfifosync.h"
+ #include "cyu3gpif.h"
+ #include "cyu3pib.h"
+-#include "cyu3utils.h"
+ #include "pib_regs.h"
+ #include <cyu3gpio.h>
+ 
+ /* This file should be included only once as it contains
+  * structure definitions. Including it in multiple places
+  * can result in linker error. */
+-#include "cyfxgpif_syncsf.h"
++
++#include "cyfxgpif2config.h"
++
+ 
+ CyU3PThread slFifoAppThread;	        /* Slave FIFO application thread structure */
+ CyU3PDmaChannel glChHandleSlFifoUtoP;   /* DMA Channel handle for U2P transfer. */
+ CyU3PDmaChannel glChHandleSlFifoPtoU;   /* DMA Channel handle for P2U transfer. */
++CyU3PDmaChannel glChHandleSlFifoPtoU_IRQ; /*DMA Channel handle for P2U_IRQ transfer */
+ 
+ uint32_t glDMARxCount = 0;               /* Counter to track the number of buffers received from USB. */
+ uint32_t glDMATxCount = 0;               /* Counter to track the number of buffers sent to USB. */
++uint32_t glDMATxCount_IRQ = 0;           /* Counter to track the number of IRQ buffers sent to USB. */
+ CyBool_t glIsApplnActive = CyFalse;      /* Whether the loopback application is active or not. */
++uint8_t burstLength = 0;
+ 
+ /* Application Error Handler */
+ void
+@@ -104,7 +117,6 @@ CyFxSlFifoApplnDebugInit (void)
+ {
+     CyU3PUartConfig_t uartConfig;
+     CyU3PReturnStatus_t apiRetStatus = CY_U3P_SUCCESS;
+-
+     /* Initialize the UART for printing debug messages */
+     apiRetStatus = CyU3PUartInit();
+     if (apiRetStatus != CY_U3P_SUCCESS)
+@@ -198,6 +210,34 @@ CyFxSlFifoPtoUDmaCallback (
+     }
+ }
+ 
++/* DMA callback function to handle the produce events IRQ for P to U transfers. */
++void
++CyFxSlFifoPtoUDmaCallback_IRQ (
++        CyU3PDmaChannel   *chHandle,
++        CyU3PDmaCbType_t  type,
++        CyU3PDmaCBInput_t *input
++        )
++{
++    CyU3PReturnStatus_t status = CY_U3P_SUCCESS;
++
++    if (type == CY_U3P_DMA_CB_PROD_EVENT)
++    {
++        /* This is a produce event notification to the CPU. This notification is
++         * received upon reception of every buffer. The buffer will not be sent
++         * out unless it is explicitly committed. The call shall fail if there
++         * is a bus reset / usb disconnect or if there is any application error. */
++        status = CyU3PDmaChannelCommitBuffer (chHandle, input->buffer_p.count, 0);
++        if (status != CY_U3P_SUCCESS)
++        {
++            CyU3PDebugPrint (4, "CyU3PDmaChannelCommitBuffer failed, Error code = %d\n", status);
++        }
++
++        /* Increment the counter. */
++        glDMATxCount_IRQ++;
++    }
++}
++
++
+ /* This function starts the slave FIFO loop application. This is called
+  * when a SET_CONF event is received from the USB host. The endpoints
+  * are configured and the DMA pipe is setup in this function. */
+@@ -223,10 +263,13 @@ CyFxSlFifoApplnStart (
+ 
+         case CY_U3P_HIGH_SPEED:
+             size = 512;
++            burstLength=1;
++
+             break;
+ 
+         case  CY_U3P_SUPER_SPEED:
+             size = 1024;
++            burstLength=16;
+             break;
+ 
+         default:
+@@ -238,7 +281,11 @@ CyFxSlFifoApplnStart (
+     CyU3PMemSet ((uint8_t *)&epCfg, 0, sizeof (epCfg));
+     epCfg.enable = CyTrue;
+     epCfg.epType = CY_U3P_USB_EP_BULK;
++#ifdef STREAM_IN_OUT
++    epCfg.burstLen = burstLength;
++#else
+     epCfg.burstLen = 1;
++#endif
+     epCfg.streams = 0;
+     epCfg.pcktSize = size;
+ 
+@@ -258,10 +305,20 @@ CyFxSlFifoApplnStart (
+         CyFxAppErrorHandler (apiRetStatus);
+     }
+ 
++    /* Consumer IRQ endpoint configuration */
++    apiRetStatus = CyU3PSetEpConfig(CY_FX_EP_CONSUMER_IRQ, &epCfg);
++    if (apiRetStatus != CY_U3P_SUCCESS)
++    {
++        CyU3PDebugPrint (4, "CyU3PSetEpConfig failed, Error code = %d\n", apiRetStatus);
++        CyFxAppErrorHandler (apiRetStatus);
++    }
++
++
++#ifdef MANUAL
+     /* Create a DMA MANUAL channel for U2P transfer.
+      * DMA size is set based on the USB speed. */
+-    dmaCfg.size  = size;
+-    dmaCfg.count = CY_FX_SLFIFO_DMA_BUF_COUNT;
++    dmaCfg.size  = DMA_BUF_SIZE* size;
++    dmaCfg.count = CY_FX_SLFIFO_DMA_BUF_COUNT_U_2_P;
+     dmaCfg.prodSckId = CY_FX_PRODUCER_USB_SOCKET;
+     dmaCfg.consSckId = CY_FX_CONSUMER_PPORT_SOCKET;
+     dmaCfg.dmaMode = CY_U3P_DMA_MODE_BYTE;
+@@ -284,18 +341,72 @@ CyFxSlFifoApplnStart (
+     /* Create a DMA MANUAL channel for P2U transfer. */
+     dmaCfg.prodSckId = CY_FX_PRODUCER_PPORT_SOCKET;
+     dmaCfg.consSckId = CY_FX_CONSUMER_USB_SOCKET;
++    dmaCfg.count = CY_FX_SLFIFO_DMA_BUF_COUNT_P_2_U;
+     dmaCfg.cb = CyFxSlFifoPtoUDmaCallback;
+     apiRetStatus = CyU3PDmaChannelCreate (&glChHandleSlFifoPtoU,
+             CY_U3P_DMA_TYPE_MANUAL, &dmaCfg);
++
++#else
++    /* Create a DMA AUTO channel for U2P transfer.
++       DMA size is set based on the USB speed. */
++    dmaCfg.size  = DMA_BUF_SIZE* size;
++    dmaCfg.count = CY_FX_SLFIFO_DMA_BUF_COUNT_U_2_P;
++	dmaCfg.prodSckId = CY_FX_PRODUCER_USB_SOCKET;
++    dmaCfg.consSckId = CY_FX_CONSUMER_PPORT_SOCKET;
++    dmaCfg.dmaMode = CY_U3P_DMA_MODE_BYTE;
++    /* Enabling the callback for produce event. */
++    dmaCfg.notification = 0;
++    dmaCfg.cb = NULL;
++    dmaCfg.prodHeader = 0;
++    dmaCfg.prodFooter = 0;
++    dmaCfg.consHeader = 0;
++    dmaCfg.prodAvailCount = 0;
++
++    apiRetStatus = CyU3PDmaChannelCreate (&glChHandleSlFifoUtoP,
++               CY_U3P_DMA_TYPE_AUTO, &dmaCfg);
++    if (apiRetStatus != CY_U3P_SUCCESS)
++    {
++       CyU3PDebugPrint (4, "CyU3PDmaChannelCreate failed, Error code = %d\n", apiRetStatus);
++       CyFxAppErrorHandler(apiRetStatus);
++    }
++
++    /* Create a DMA AUTO channel for P2U transfer. */
++    dmaCfg.size  = DMA_BUF_SIZE*size; //increase buffer size for higher performance
++    dmaCfg.count = CY_FX_SLFIFO_DMA_BUF_COUNT_P_2_U; // increase buffer count for higher performance
++    dmaCfg.prodSckId = CY_FX_PRODUCER_PPORT_SOCKET;
++    dmaCfg.consSckId = CY_FX_CONSUMER_USB_SOCKET;
++    dmaCfg.cb = NULL;
++    apiRetStatus = CyU3PDmaChannelCreate (&glChHandleSlFifoPtoU,
++               CY_U3P_DMA_TYPE_AUTO, &dmaCfg);
++
+     if (apiRetStatus != CY_U3P_SUCCESS)
+     {
+         CyU3PDebugPrint (4, "CyU3PDmaChannelCreate failed, Error code = %d\n", apiRetStatus);
+         CyFxAppErrorHandler(apiRetStatus);
+     }
+ 
++    /* Create a DMA AUTO channel for P2U transfer IRQ. */
++    dmaCfg.size  = DMA_BUF_SIZE*size; //increase buffer size for higher performance
++    dmaCfg.count = CY_FX_SLFIFO_DMA_BUF_COUNT_P_2_U_IRQ; // increase buffer count for higher performance
++    dmaCfg.prodSckId = CY_FX_PRODUCER_PPORT_SOCKET_IRQ;
++    dmaCfg.consSckId = CY_FX_CONSUMER_USB_SOCKET_IRQ;
++    dmaCfg.cb = NULL;
++    apiRetStatus = CyU3PDmaChannelCreate (&glChHandleSlFifoPtoU_IRQ,
++               CY_U3P_DMA_TYPE_AUTO, &dmaCfg);
++
++    if (apiRetStatus != CY_U3P_SUCCESS)
++    {
++        CyU3PDebugPrint (4, "CyU3PDmaChannelCreate failed, Error code = %d\n", apiRetStatus);
++        CyFxAppErrorHandler(apiRetStatus);
++    }
++
++
++#endif
++
+     /* Flush the Endpoint memory */
+     CyU3PUsbFlushEp(CY_FX_EP_PRODUCER);
+     CyU3PUsbFlushEp(CY_FX_EP_CONSUMER);
++    CyU3PUsbFlushEp(CY_FX_EP_CONSUMER_IRQ);
+ 
+     /* Set DMA channel transfer size. */
+     apiRetStatus = CyU3PDmaChannelSetXfer (&glChHandleSlFifoUtoP, CY_FX_SLFIFO_DMA_TX_SIZE);
+@@ -310,10 +421,17 @@ CyFxSlFifoApplnStart (
+         CyU3PDebugPrint (4, "CyU3PDmaChannelSetXfer Failed, Error code = %d\n", apiRetStatus);
+         CyFxAppErrorHandler(apiRetStatus);
+     }
++    apiRetStatus = CyU3PDmaChannelSetXfer (&glChHandleSlFifoPtoU_IRQ, CY_FX_SLFIFO_DMA_RX_SIZE_IRQ);
++    if (apiRetStatus != CY_U3P_SUCCESS)
++    {
++        CyU3PDebugPrint (4, "CyU3PDmaChannelSetXfer Failed, Error code = %d\n", apiRetStatus);
++        CyFxAppErrorHandler(apiRetStatus);
++    }
++
+ 
+     /* Update the status flag. */
+     glIsApplnActive = CyTrue;
+-	CyU3PGpioSetValue (59, CyFalse);
++    CyU3PGpioSetValue (59, CyFalse);
+ }
+ 
+ /* This function stops the slave FIFO loop application. This shall be called
+@@ -332,10 +450,12 @@ CyFxSlFifoApplnStop (
+     /* Flush the endpoint memory */
+     CyU3PUsbFlushEp(CY_FX_EP_PRODUCER);
+     CyU3PUsbFlushEp(CY_FX_EP_CONSUMER);
++    CyU3PUsbFlushEp(CY_FX_EP_CONSUMER_IRQ);
+ 
+     /* Destroy the channel */
+     CyU3PDmaChannelDestroy (&glChHandleSlFifoUtoP);
+     CyU3PDmaChannelDestroy (&glChHandleSlFifoPtoU);
++    CyU3PDmaChannelDestroy (&glChHandleSlFifoPtoU_IRQ);
+ 
+     /* Disable endpoints. */
+     CyU3PMemSet ((uint8_t *)&epCfg, 0, sizeof (epCfg));
+@@ -356,6 +476,14 @@ CyFxSlFifoApplnStop (
+         CyU3PDebugPrint (4, "CyU3PSetEpConfig failed, Error code = %d\n", apiRetStatus);
+         CyFxAppErrorHandler (apiRetStatus);
+     }
++
++    /* Consumer endpoint configuration IRQ. */
++    apiRetStatus = CyU3PSetEpConfig(CY_FX_EP_CONSUMER_IRQ, &epCfg);
++    if (apiRetStatus != CY_U3P_SUCCESS)
++    {
++        CyU3PDebugPrint (4, "CyU3PSetEpConfig failed, Error code = %d\n", apiRetStatus);
++        CyFxAppErrorHandler (apiRetStatus);
++    }
+ }
+ 
+ /* Callback to handle the USB setup requests. */
+@@ -415,33 +543,29 @@ CyFxSlFifoApplnUSBSetupCB (
+             {
+                 if (wIndex == CY_FX_EP_PRODUCER)
+                 {
+-                    CyU3PUsbSetEpNak (CY_FX_EP_PRODUCER, CyTrue);
+-                    CyU3PBusyWait (125);
+-
+                     CyU3PDmaChannelReset (&glChHandleSlFifoUtoP);
+                     CyU3PUsbFlushEp(CY_FX_EP_PRODUCER);
+                     CyU3PUsbResetEp (CY_FX_EP_PRODUCER);
+                     CyU3PDmaChannelSetXfer (&glChHandleSlFifoUtoP, CY_FX_SLFIFO_DMA_TX_SIZE);
+-
+-                    CyU3PUsbSetEpNak (CY_FX_EP_PRODUCER, CyFalse);
+                 }
+ 
+                 if (wIndex == CY_FX_EP_CONSUMER)
+                 {
+-                    CyU3PUsbSetEpNak (CY_FX_EP_PRODUCER, CyTrue);
+-                    CyU3PBusyWait (125);
+-
+                     CyU3PDmaChannelReset (&glChHandleSlFifoPtoU);
+                     CyU3PUsbFlushEp(CY_FX_EP_CONSUMER);
+                     CyU3PUsbResetEp (CY_FX_EP_CONSUMER);
+                     CyU3PDmaChannelSetXfer (&glChHandleSlFifoPtoU, CY_FX_SLFIFO_DMA_RX_SIZE);
++                }
+ 
+-                    CyU3PUsbSetEpNak (CY_FX_EP_PRODUCER, CyFalse);
++                if (wIndex == CY_FX_EP_CONSUMER_IRQ)
++                {
++                    CyU3PDmaChannelReset (&glChHandleSlFifoPtoU_IRQ);
++                    CyU3PUsbFlushEp(CY_FX_EP_CONSUMER_IRQ);
++                    CyU3PUsbResetEp (CY_FX_EP_CONSUMER_IRQ);
++                    CyU3PDmaChannelSetXfer (&glChHandleSlFifoPtoU_IRQ, CY_FX_SLFIFO_DMA_RX_SIZE_IRQ);
+                 }
+ 
+                 CyU3PUsbStall (wIndex, CyFalse, CyTrue);
+-
+-                CyU3PUsbAckSetup ();
+                 isHandled = CyTrue;
+             }
+         }
+@@ -460,13 +584,12 @@ CyFxSlFifoApplnUSBEventCB (
+     switch (evtype)
+     {
+         case CY_U3P_USB_EVENT_SETCONF:
+-            /* Disable the low power entry to optimize USB throughput */
+-            CyU3PUsbLPMDisable();
+             /* Stop the application before re-starting. */
+             if (glIsApplnActive)
+             {
+                 CyFxSlFifoApplnStop ();
+             }
++            CyU3PUsbLPMDisable();
+             /* Start the loop back function. */
+             CyFxSlFifoApplnStart ();
+             break;
+@@ -500,16 +623,59 @@ CyFxApplnLPMRqtCB (
+     return CyTrue;
+ }
+ 
++void
++gpif_error_cb(CyU3PPibIntrType cbType, uint16_t cbArg)
++{
++
++if(cbType==CYU3P_PIB_INTR_ERROR)
++{
++    switch (CYU3P_GET_PIB_ERROR_TYPE(cbArg))
++    {
++        case CYU3P_PIB_ERR_THR0_WR_OVERRUN:
++        CyU3PDebugPrint (4, "CYU3P_PIB_ERR_THR0_WR_OVERRUN");
++        break;
++        case CYU3P_PIB_ERR_THR1_WR_OVERRUN:
++        CyU3PDebugPrint (4, "CYU3P_PIB_ERR_THR1_WR_OVERRUN");
++        break;
++        case CYU3P_PIB_ERR_THR2_WR_OVERRUN:
++        CyU3PDebugPrint (4, "CYU3P_PIB_ERR_THR2_WR_OVERRUN");
++        break;
++        case CYU3P_PIB_ERR_THR3_WR_OVERRUN:
++        CyU3PDebugPrint (4, "CYU3P_PIB_ERR_THR3_WR_OVERRUN");
++        break;
++
++        case CYU3P_PIB_ERR_THR0_RD_UNDERRUN:
++        CyU3PDebugPrint (4, "CYU3P_PIB_ERR_THR0_RD_UNDERRUN");
++        break;
++        case CYU3P_PIB_ERR_THR1_RD_UNDERRUN:
++        CyU3PDebugPrint (4, "CYU3P_PIB_ERR_THR1_RD_UNDERRUN");
++        break;
++        case CYU3P_PIB_ERR_THR2_RD_UNDERRUN:
++        CyU3PDebugPrint (4, "CYU3P_PIB_ERR_THR2_RD_UNDERRUN");
++        break;
++        case CYU3P_PIB_ERR_THR3_RD_UNDERRUN:
++        CyU3PDebugPrint (4, "CYU3P_PIB_ERR_THR3_RD_UNDERRUN");
++        break;
++
++        default:
++        CyU3PDebugPrint (4, "No Error :%d\n ",CYU3P_GET_PIB_ERROR_TYPE(cbArg));
++            break;
++    }
++}
++
++}
++
++
++
+ /* This function initializes the GPIF interface and initializes
+  * the USB interface. */
+ void
+ CyFxSlFifoApplnInit (void)
+ {
+     CyU3PPibClock_t pibClock;
+-    CyU3PReturnStatus_t apiRetStatus = CY_U3P_SUCCESS;
+     CyU3PGpioClock_t gpioClock;
+     CyU3PGpioSimpleConfig_t gpioConfig;
+-
++    CyU3PReturnStatus_t apiRetStatus = CY_U3P_SUCCESS;
+ 
+     /* Initialize the p-port block. */
+     pibClock.clkDiv = 2;
+@@ -532,23 +698,19 @@ CyFxSlFifoApplnInit (void)
+         CyFxAppErrorHandler(apiRetStatus);
+     }
+ 
+-#if (CY_FX_SLFIFO_GPIF_16_32BIT_CONF_SELECT == 1)	
+-    CyU3PGpifSocketConfigure (0,CY_U3P_PIB_SOCKET_0,6,CyFalse,1);
+-    CyU3PGpifSocketConfigure (3,CY_U3P_PIB_SOCKET_3,6,CyFalse,1);
+-#else
+-	CyU3PGpifSocketConfigure (0,CY_U3P_PIB_SOCKET_0,3,CyFalse,1);
+-    CyU3PGpifSocketConfigure (3,CY_U3P_PIB_SOCKET_3,3,CyFalse,1);
+-#endif
+-	
++    //CyU3PGpifSocketConfigure (0,CY_U3P_PIB_SOCKET_0,6,CyFalse,1);
++
++   //CyU3PGpifSocketConfigure (3,CY_U3P_PIB_SOCKET_3,6,CyFalse,1);
++
+     /* Start the state machine. */
+-    apiRetStatus = CyU3PGpifSMStart (RESET, ALPHA_RESET);
++    apiRetStatus = CyU3PGpifSMStart (RESET,ALPHA_RESET);
+     if (apiRetStatus != CY_U3P_SUCCESS)
+     {
+         CyU3PDebugPrint (4, "CyU3PGpifSMStart failed, Error Code = %d\n",apiRetStatus);
+         CyFxAppErrorHandler(apiRetStatus);
+     }
+-	
+-	/* Init the GPIO module */
++
++    /* Init the GPIO module */
+ 	gpioClock.fastClkDiv = 2;
+ 	gpioClock.slowClkDiv = 0;
+ 	gpioClock.simpleDiv = CY_U3P_GPIO_SIMPLE_DIV_BY_2;
+@@ -584,6 +746,8 @@ CyFxSlFifoApplnInit (void)
+         CyU3PDebugPrint (4, "CyU3PUsbStart failed to Start, Error code = %d\n", apiRetStatus);
+         CyFxAppErrorHandler(apiRetStatus);
+     }
++    /* callback to see if there is any overflow of data on the GPIF II side*/
++    CyU3PPibRegisterCallback(gpif_error_cb,0xffff);
+ 
+     /* The fast enumeration is the easiest way to setup a USB connection,
+      * where all enumeration phase is handled by the library. Only the
+@@ -599,7 +763,7 @@ CyFxSlFifoApplnInit (void)
+     /* Set the USB Enumeration descriptors */
+ 
+     /* Super speed device descriptor. */
+-    apiRetStatus = CyU3PUsbSetDesc(CY_U3P_USB_SET_SS_DEVICE_DESCR, 0, (uint8_t *)CyFxUSB30DeviceDscr);
++    apiRetStatus = CyU3PUsbSetDesc(CY_U3P_USB_SET_SS_DEVICE_DESCR, NULL, (uint8_t *)CyFxUSB30DeviceDscr);
+     if (apiRetStatus != CY_U3P_SUCCESS)
+     {
+         CyU3PDebugPrint (4, "USB set device descriptor failed, Error code = %d\n", apiRetStatus);
+@@ -607,7 +771,7 @@ CyFxSlFifoApplnInit (void)
+     }
+ 
+     /* High speed device descriptor. */
+-    apiRetStatus = CyU3PUsbSetDesc(CY_U3P_USB_SET_HS_DEVICE_DESCR, 0, (uint8_t *)CyFxUSB20DeviceDscr);
++    apiRetStatus = CyU3PUsbSetDesc(CY_U3P_USB_SET_HS_DEVICE_DESCR, NULL, (uint8_t *)CyFxUSB20DeviceDscr);
+     if (apiRetStatus != CY_U3P_SUCCESS)
+     {
+         CyU3PDebugPrint (4, "USB set device descriptor failed, Error code = %d\n", apiRetStatus);
+@@ -615,7 +779,7 @@ CyFxSlFifoApplnInit (void)
+     }
+ 
+     /* BOS descriptor */
+-    apiRetStatus = CyU3PUsbSetDesc(CY_U3P_USB_SET_SS_BOS_DESCR, 0, (uint8_t *)CyFxUSBBOSDscr);
++    apiRetStatus = CyU3PUsbSetDesc(CY_U3P_USB_SET_SS_BOS_DESCR, NULL, (uint8_t *)CyFxUSBBOSDscr);
+     if (apiRetStatus != CY_U3P_SUCCESS)
+     {
+         CyU3PDebugPrint (4, "USB set configuration descriptor failed, Error code = %d\n", apiRetStatus);
+@@ -623,7 +787,7 @@ CyFxSlFifoApplnInit (void)
+     }
+ 
+     /* Device qualifier descriptor */
+-    apiRetStatus = CyU3PUsbSetDesc(CY_U3P_USB_SET_DEVQUAL_DESCR, 0, (uint8_t *)CyFxUSBDeviceQualDscr);
++    apiRetStatus = CyU3PUsbSetDesc(CY_U3P_USB_SET_DEVQUAL_DESCR, NULL, (uint8_t *)CyFxUSBDeviceQualDscr);
+     if (apiRetStatus != CY_U3P_SUCCESS)
+     {
+         CyU3PDebugPrint (4, "USB set device qualifier descriptor failed, Error code = %d\n", apiRetStatus);
+@@ -631,7 +795,7 @@ CyFxSlFifoApplnInit (void)
+     }
+ 
+     /* Super speed configuration descriptor */
+-    apiRetStatus = CyU3PUsbSetDesc(CY_U3P_USB_SET_SS_CONFIG_DESCR, 0, (uint8_t *)CyFxUSBSSConfigDscr);
++    apiRetStatus = CyU3PUsbSetDesc(CY_U3P_USB_SET_SS_CONFIG_DESCR, NULL, (uint8_t *)CyFxUSBSSConfigDscr);
+     if (apiRetStatus != CY_U3P_SUCCESS)
+     {
+         CyU3PDebugPrint (4, "USB set configuration descriptor failed, Error code = %d\n", apiRetStatus);
+@@ -639,7 +803,7 @@ CyFxSlFifoApplnInit (void)
+     }
+ 
+     /* High speed configuration descriptor */
+-    apiRetStatus = CyU3PUsbSetDesc(CY_U3P_USB_SET_HS_CONFIG_DESCR, 0, (uint8_t *)CyFxUSBHSConfigDscr);
++    apiRetStatus = CyU3PUsbSetDesc(CY_U3P_USB_SET_HS_CONFIG_DESCR, NULL, (uint8_t *)CyFxUSBHSConfigDscr);
+     if (apiRetStatus != CY_U3P_SUCCESS)
+     {
+         CyU3PDebugPrint (4, "USB Set Other Speed Descriptor failed, Error Code = %d\n", apiRetStatus);
+@@ -647,7 +811,7 @@ CyFxSlFifoApplnInit (void)
+     }
+ 
+     /* Full speed configuration descriptor */
+-    apiRetStatus = CyU3PUsbSetDesc(CY_U3P_USB_SET_FS_CONFIG_DESCR, 0, (uint8_t *)CyFxUSBFSConfigDscr);
++    apiRetStatus = CyU3PUsbSetDesc(CY_U3P_USB_SET_FS_CONFIG_DESCR, NULL, (uint8_t *)CyFxUSBFSConfigDscr);
+     if (apiRetStatus != CY_U3P_SUCCESS)
+     {
+         CyU3PDebugPrint (4, "USB Set Configuration Descriptor failed, Error Code = %d\n", apiRetStatus);
+@@ -700,12 +864,13 @@ SlFifoAppThread_Entry (
+ 
+     for (;;)
+     {
+-        CyU3PThreadSleep (1000);
++
++    	CyU3PThreadSleep (1000);
+         if (glIsApplnActive)
+         {
+-            /* Print the number of buffers received so far from the USB host. */
++            /* Print the number of buffers received so far from the USB host.
+             CyU3PDebugPrint (6, "Data tracker: buffers received: %d, buffers sent: %d.\n",
+-                    glDMARxCount, glDMATxCount);
++                    glDMARxCount, glDMATxCount);*/
+         }
+     }
+ }
+@@ -755,28 +920,29 @@ main (void)
+ {
+     CyU3PIoMatrixConfig_t io_cfg;
+     CyU3PReturnStatus_t status = CY_U3P_SUCCESS;
+-    CyU3PSysClockConfig_t clockConfig;
+-
+-    /* When the GPIF data bus is configured as 32-bits wide and running at 100 MHz (synchronous),
+-       the FX3 system clock has to be set to a frequency greater than 400 MHz. */
+-#if (CY_FX_SLFIFO_GPIF_16_32BIT_CONF_SELECT == 0)
+-    clockConfig.setSysClk400  = CyFalse;
+-#else
+-    clockConfig.setSysClk400  = CyTrue;
+-#endif
+-    clockConfig.cpuClkDiv     = 2;
+-    clockConfig.dmaClkDiv     = 2;
+-    clockConfig.mmioClkDiv    = 2;
+-    clockConfig.useStandbyClk = CyFalse;
+-    clockConfig.clkSrc        = CY_U3P_SYS_CLK;
+-    status = CyU3PDeviceInit (&clockConfig);
++    CyU3PSysClockConfig_t clkCfg;
++
++        /* setSysClk400 clock configurations */
++        clkCfg.setSysClk400 = CyTrue;   /* FX3 device's master clock is set to a frequency > 400 MHz */
++        clkCfg.cpuClkDiv = 2;           /* CPU clock divider */
++        clkCfg.dmaClkDiv = 2;           /* DMA clock divider */
++        clkCfg.mmioClkDiv = 2;          /* MMIO clock divider */
++        clkCfg.useStandbyClk = CyFalse; /* device has no 32KHz clock supplied */
++        clkCfg.clkSrc = CY_U3P_SYS_CLK; /* Clock source for a peripheral block  */
++
++    /* Initialize the device */
++    status = CyU3PDeviceInit (&clkCfg);
+     if (status != CY_U3P_SUCCESS)
+     {
+         goto handle_fatal_error;
+     }
+ 
+-    /* Initialize the caches. Enable both Instruction and Data Caches. */
+-    status = CyU3PDeviceCacheControl (CyTrue, CyTrue, CyTrue);
++    /* Initialize the caches. Enable instruction cache and keep data cache disabled.
++     * The data cache is useful only when there is a large amount of CPU based memory
++     * accesses. When used in simple cases, it can decrease performance due to large 
++     * number of cache flushes and cleans and also it adds to the complexity of the
++     * code. */
++    status = CyU3PDeviceCacheControl (CyTrue, CyFalse, CyFalse);
+     if (status != CY_U3P_SUCCESS)
+     {
+         goto handle_fatal_error;
+@@ -787,8 +953,6 @@ main (void)
+      * selected or lppMode should be set to UART_ONLY. Here we are choosing
+      * UART_ONLY configuration for 16 bit slave FIFO configuration and setting
+      * isDQ32Bit for 32-bit slave FIFO configuration. */
+-    io_cfg.s0Mode = CY_U3P_SPORT_INACTIVE;
+-    io_cfg.s1Mode = CY_U3P_SPORT_INACTIVE;
+     io_cfg.useUart   = CyTrue;
+     io_cfg.useI2C    = CyFalse;
+     io_cfg.useI2S    = CyFalse;
+@@ -802,7 +966,7 @@ main (void)
+ #endif
+     /* No GPIOs are enabled. */
+     io_cfg.gpioSimpleEn[0]  = 0;
+-    io_cfg.gpioSimpleEn[1]  = 0x08000000;
++    io_cfg.gpioSimpleEn[1]  = 0x08000000; /* GPIO 59 */
+     io_cfg.gpioComplexEn[0] = 0;
+     io_cfg.gpioComplexEn[1] = 0;
+     status = CyU3PDeviceConfigureIOMatrix (&io_cfg);
+diff --git a/slfifosync/cyfxslfifosync.h b/slfifosync/cyfxslfifosync.h
+index a078c94..085102e 100755
+--- a/slfifosync/cyfxslfifosync.h
++++ b/slfifosync/cyfxslfifosync.h
+@@ -2,7 +2,7 @@
+  ## Cypress USB 3.0 Platform header file (cyfxslfifosync.h)
+  ## ===========================
+  ##
+- ##  Copyright Cypress Semiconductor Corporation, 2010-2018,
++ ##  Copyright Cypress Semiconductor Corporation, 2010-2011,
+  ##  All Rights Reserved
+  ##  UNPUBLISHED, LICENSED SOFTWARE.
+  ##
+@@ -20,6 +20,8 @@
+  ## ===========================
+ */
+ 
++/* Modified by Giovanni Camurati and Nassim Corteggiani */
++
+ /* This file contains the constants and definitions used by the Slave FIFO application example */
+ 
+ #ifndef _INCLUDED_CYFXSLFIFOASYNC_H_
+@@ -29,17 +31,44 @@
+ #include "cyu3types.h"
+ #include "cyu3usbconst.h"
+ 
++
+ /* 16/32 bit GPIF Configuration select */
+ /* Set CY_FX_SLFIFO_GPIF_16_32BIT_CONF_SELECT = 0 for 16 bit GPIF data bus.
+  * Set CY_FX_SLFIFO_GPIF_16_32BIT_CONF_SELECT = 1 for 32 bit GPIF data bus.
+  */
+ #define CY_FX_SLFIFO_GPIF_16_32BIT_CONF_SELECT (1)
+-
+-#define CY_FX_SLFIFO_DMA_BUF_COUNT      (2)                       /* Slave FIFO channel buffer count */
++/* set up DMA channel for loopback/short packet/ZLP transfers */
++#define LOOPBACK_SHRT_ZLP
++
++/* set up DMA channel for stream IN/OUT transfers */
++//#define STREAM_IN_OUT
++
++/* set up MANUAL DMA channel for stream IN/OUT transfers */
++//#define MANUAL
++
++#ifdef LOOPBACK_SHRT_ZLP
++#define BURST_LEN 1
++#define DMA_BUF_SIZE						  (1)
++#define CY_FX_SLFIFO_DMA_BUF_COUNT_P_2_U      (2)              /* Slave FIFO P_2_U channel buffer count - Used with AUTO DMA channel */
++#define CY_FX_SLFIFO_DMA_BUF_COUNT_P_2_U_IRQ      (2)              /* Slave FIFO P_2_U channel buffer count IRQ - Used with AUTO DMA channel */
++#define CY_FX_SLFIFO_DMA_BUF_COUNT_U_2_P 	  (2)			   /* Slave FIFO U_2_P channel buffer count - Used with AUTO DMA channel */
++#endif
++
++#ifdef STREAM_IN_OUT
++#define BURST_LEN 16
++#define DMA_BUF_SIZE						 (16)
++/* Slave FIFO P_2_U channel buffer count */
++#define CY_FX_SLFIFO_DMA_BUF_COUNT_P_2_U      (8)
++/* Slave FIFO U_2_P channel buffer count */
++#define CY_FX_SLFIFO_DMA_BUF_COUNT_U_2_P 	  (4)
++#endif
++
++#define CY_FX_SLFIFO_DMA_BUF_COUNT      (2)                   /* Slave FIFO channel buffer count - This is used with MANUAL DMA channel */
+ #define CY_FX_SLFIFO_DMA_TX_SIZE        (0)	                  /* DMA transfer size is set to infinite */
+ #define CY_FX_SLFIFO_DMA_RX_SIZE        (0)	                  /* DMA transfer size is set to infinite */
+-#define CY_FX_SLFIFO_THREAD_STACK       (0x0400)                  /* Slave FIFO application thread stack size */
+-#define CY_FX_SLFIFO_THREAD_PRIORITY    (8)                       /* Slave FIFO application thread priority */
++#define CY_FX_SLFIFO_DMA_RX_SIZE_IRQ        (0)	                  /* DMA transfer size is set to infinite */
++#define CY_FX_SLFIFO_THREAD_STACK       (0x0400)              /* Slave FIFO application thread stack size */
++#define CY_FX_SLFIFO_THREAD_PRIORITY    (8)                   /* Slave FIFO application thread priority */
+ 
+ /* Endpoint and socket definitions for the Slave FIFO application */
+ 
+@@ -54,14 +83,20 @@
+ 
+ #define CY_FX_EP_PRODUCER               0x01    /* EP 1 OUT */
+ #define CY_FX_EP_CONSUMER               0x81    /* EP 1 IN */
++#define CY_FX_EP_CONSUMER_IRQ           0x82    /* EP 2 IN */
+ 
+ #define CY_FX_PRODUCER_USB_SOCKET    CY_U3P_UIB_SOCKET_PROD_1    /* USB Socket 1 is producer */
+ #define CY_FX_CONSUMER_USB_SOCKET    CY_U3P_UIB_SOCKET_CONS_1    /* USB Socket 1 is consumer */
+-
++#define CY_FX_CONSUMER_USB_SOCKET_IRQ   CY_U3P_UIB_SOCKET_CONS_2    /* USB Socket 2 is consumer */
+ 
+ /* Used with FX3 Silicon. */
+-#define CY_FX_PRODUCER_PPORT_SOCKET    CY_U3P_PIB_SOCKET_0    /* P-port Socket 0 is producer */
+-#define CY_FX_CONSUMER_PPORT_SOCKET    CY_U3P_PIB_SOCKET_3    /* P-port Socket 3 is consumer */
++#define CY_FX_PRODUCER_PPORT_SOCKET      CY_U3P_PIB_SOCKET_0    /* P-port Socket 0 is producer */
++#define CY_FX_CONSUMER_PPORT_SOCKET      CY_U3P_PIB_SOCKET_3    /* P-port Socket 3 is consumer */
++#define CY_FX_PRODUCER_PPORT_SOCKET_IRQ  CY_U3P_PIB_SOCKET_1    /* P-port socket 1 is producer */
++
++
++
++
+ 
+ /* Extern definitions for the USB Descriptors */
+ extern const uint8_t CyFxUSB20DeviceDscr[];
+diff --git a/slfifosync/cyfxslfifousbdscr.c b/slfifosync/cyfxslfifousbdscr.c
+index fd84be7..fa86aeb 100755
+--- a/slfifosync/cyfxslfifousbdscr.c
++++ b/slfifosync/cyfxslfifousbdscr.c
+@@ -2,7 +2,7 @@
+  ## Cypress USB 3.0 Platform header file (cyfxslfifousbdscr.c)
+  ## ===========================
+  ##
+- ##  Copyright Cypress Semiconductor Corporation, 2010-2018,
++ ##  Copyright Cypress Semiconductor Corporation, 2010-2011,
+  ##  All Rights Reserved
+  ##  UNPUBLISHED, LICENSED SOFTWARE.
+  ##
+@@ -39,7 +39,7 @@ const uint8_t CyFxUSB30DeviceDscr[] __attribute__ ((aligned (32))) =
+ {
+     0x12,                           /* Descriptor size */
+     CY_U3P_USB_DEVICE_DESCR,        /* Device descriptor type */
+-    0x10,0x03,                      /* USB 3.1 */
++    0x00,0x03,                      /* USB 3.0 */
+     0x00,                           /* Device class */
+     0x00,                           /* Device sub-class */
+     0x00,                           /* Device protocol */
+@@ -84,8 +84,7 @@ const uint8_t CyFxUSBBOSDscr[] __attribute__ ((aligned (32))) =
+     0x07,                           /* Descriptor size */
+     CY_U3P_DEVICE_CAPB_DESCR,       /* Device capability type descriptor */
+     CY_U3P_USB2_EXTN_CAPB_TYPE,     /* USB 2.0 extension capability type */
+-    0x1E,0x64,0x00,0x00,            /* Supported device level features: LPM support, BESL supported,
+-                                       Baseline BESL=400 us, Deep BESL=1000 us. */
++    0x02,0x00,0x00,0x00,            /* Supported device level features: LPM support  */
+ 
+     /* SuperSpeed device capability */
+     0x0A,                           /* Descriptor size */
+@@ -118,7 +117,7 @@ const uint8_t CyFxUSBSSConfigDscr[] __attribute__ ((aligned (32))) =
+     /* Configuration descriptor */
+     0x09,                           /* Descriptor size */
+     CY_U3P_USB_CONFIG_DESCR,        /* Configuration descriptor type */
+-    0x2C,0x00,                      /* Length of this descriptor and all sub descriptors */
++    0x39,0x00,                      /* Length of this descriptor and all sub descriptors */
+     0x01,                           /* Number of interfaces */
+     0x01,                           /* Configuration number */
+     0x00,                           /* COnfiguration string index */
+@@ -130,7 +129,7 @@ const uint8_t CyFxUSBSSConfigDscr[] __attribute__ ((aligned (32))) =
+     CY_U3P_USB_INTRFC_DESCR,        /* Interface Descriptor type */
+     0x00,                           /* Interface number */
+     0x00,                           /* Alternate setting number */
+-    0x02,                           /* Number of end points */
++    0x03,                           /* Number of end points */
+     0xFF,                           /* Interface class */
+     0x00,                           /* Interface sub class */
+     0x00,                           /* Interface protocol code */
+@@ -147,7 +146,7 @@ const uint8_t CyFxUSBSSConfigDscr[] __attribute__ ((aligned (32))) =
+     /* Super speed endpoint companion descriptor for producer EP */
+     0x06,                           /* Descriptor size */
+     CY_U3P_SS_EP_COMPN_DESCR,       /* SS endpoint companion descriptor type */
+-    0x00,                           /* Max no. of packets in a burst : 0: burst 1 packet at a time */
++    BURST_LEN-1,						/* Max no. of packets in a burst : 0: burst 1 packet at a time */
+     0x00,                           /* Max streams for bulk EP = 0 (No streams) */
+     0x00,0x00,                      /* Service interval for the EP : 0 for bulk */
+ 
+@@ -162,7 +161,22 @@ const uint8_t CyFxUSBSSConfigDscr[] __attribute__ ((aligned (32))) =
+     /* Super speed endpoint companion descriptor for consumer EP */
+     0x06,                           /* Descriptor size */
+     CY_U3P_SS_EP_COMPN_DESCR,       /* SS endpoint companion descriptor type */
+-    0x00,                           /* Max no. of packets in a burst : 0: burst 1 packet at a time */
++    BURST_LEN-1,						/* Max no. of packets in a burst : 0: burst 1 packet at a time */
++    0x00,                           /* Max streams for bulk EP = 0 (No streams) */
++    0x00,0x00,                       /* Service interval for the EP : 0 for bulk */
++
++    /* Endpoint descriptor for consumer EP IRQ*/
++    0x07,                           /* Descriptor size */
++    CY_U3P_USB_ENDPNT_DESCR,        /* Endpoint descriptor type */
++    CY_FX_EP_CONSUMER_IRQ,              /* Endpoint address and description */
++    CY_U3P_USB_EP_BULK,             /* Bulk endpoint type */
++    0x00,0x04,                      /* Max packet size = 1024 bytes */
++    0x00,                           /* Servicing interval for data transfers : 0 for Bulk */
++
++    /* Super speed endpoint companion descriptor for consumer EP IRQ*/
++    0x06,                           /* Descriptor size */
++    CY_U3P_SS_EP_COMPN_DESCR,       /* SS endpoint companion descriptor type */
++    BURST_LEN-1,						/* Max no. of packets in a burst : 0: burst 1 packet at a time */
+     0x00,                           /* Max streams for bulk EP = 0 (No streams) */
+     0x00,0x00                       /* Service interval for the EP : 0 for bulk */
+ };
+@@ -173,7 +187,7 @@ const uint8_t CyFxUSBHSConfigDscr[] __attribute__ ((aligned (32))) =
+     /* Configuration descriptor */
+     0x09,                           /* Descriptor size */
+     CY_U3P_USB_CONFIG_DESCR,        /* Configuration descriptor type */
+-    0x20,0x00,                      /* Length of this descriptor and all sub descriptors */
++    0x27,0x00,                      /* Length of this descriptor and all sub descriptors */
+     0x01,                           /* Number of interfaces */
+     0x01,                           /* Configuration number */
+     0x00,                           /* COnfiguration string index */
+@@ -185,7 +199,7 @@ const uint8_t CyFxUSBHSConfigDscr[] __attribute__ ((aligned (32))) =
+     CY_U3P_USB_INTRFC_DESCR,        /* Interface Descriptor type */
+     0x00,                           /* Interface number */
+     0x00,                           /* Alternate setting number */
+-    0x02,                           /* Number of endpoints */
++    0x03,                           /* Number of endpoints */
+     0xFF,                           /* Interface class */
+     0x00,                           /* Interface sub class */
+     0x00,                           /* Interface protocol code */
+@@ -205,7 +219,15 @@ const uint8_t CyFxUSBHSConfigDscr[] __attribute__ ((aligned (32))) =
+     CY_FX_EP_CONSUMER,              /* Endpoint address and description */
+     CY_U3P_USB_EP_BULK,             /* Bulk endpoint type */
+     0x00,0x02,                      /* Max packet size = 512 bytes */
+-    0x00                            /* Servicing interval for data transfers : 0 for bulk */
++    0x00,                            /* Servicing interval for data transfers : 0 for bulk */
++
++    /* Endpoint descriptor for consumer EP IRQ */
++    0x07,                           /* Descriptor size */
++    CY_U3P_USB_ENDPNT_DESCR,        /* Endpoint descriptor type */
++    CY_FX_EP_CONSUMER_IRQ,              /* Endpoint address and description */
++    CY_U3P_USB_EP_BULK,             /* Bulk endpoint type */
++    0x00,0x02,                      /* Max packet size = 512 bytes */
++    0x00
+ };
+ 
+ /* Standard full speed configuration descriptor */
+@@ -214,7 +236,7 @@ const uint8_t CyFxUSBFSConfigDscr[] __attribute__ ((aligned (32))) =
+     /* Configuration descriptor */
+     0x09,                           /* Descriptor size */
+     CY_U3P_USB_CONFIG_DESCR,        /* Configuration descriptor type */
+-    0x20,0x00,                      /* Length of this descriptor and all sub descriptors */
++    0x27,0x00,                      /* Length of this descriptor and all sub descriptors */
+     0x01,                           /* Number of interfaces */
+     0x01,                           /* Configuration number */
+     0x00,                           /* COnfiguration string index */
+@@ -226,7 +248,7 @@ const uint8_t CyFxUSBFSConfigDscr[] __attribute__ ((aligned (32))) =
+     CY_U3P_USB_INTRFC_DESCR,        /* Interface descriptor type */
+     0x00,                           /* Interface number */
+     0x00,                           /* Alternate setting number */
+-    0x02,                           /* Number of endpoints */
++    0x03,                           /* Number of endpoints */
+     0xFF,                           /* Interface class */
+     0x00,                           /* Interface sub class */
+     0x00,                           /* Interface protocol code */
+@@ -246,7 +268,15 @@ const uint8_t CyFxUSBFSConfigDscr[] __attribute__ ((aligned (32))) =
+     CY_FX_EP_CONSUMER,              /* Endpoint address and description */
+     CY_U3P_USB_EP_BULK,             /* Bulk endpoint type */
+     0x40,0x00,                      /* Max packet size = 64 bytes */
+-    0x00                            /* Servicing interval for data transfers : 0 for bulk */
++    0x00,                            /* Servicing interval for data transfers : 0 for bulk */
++
++    /* Endpoint descriptor for consumer EP IRQ */
++    0x07,                           /* Descriptor size */
++    CY_U3P_USB_ENDPNT_DESCR,        /* Endpoint descriptor type */
++    CY_FX_EP_CONSUMER_IRQ,              /* Endpoint address and description */
++    CY_U3P_USB_EP_BULK,             /* Bulk endpoint type */
++    0x40,0x00,                      /* Max packet size = 64 bytes */
++    0x00
+ };
+ 
+ /* Standard language ID string descriptor */
+diff --git a/slfifosync/makefile b/slfifosync/makefile
+index 207fb23..c6e1acd 100755
+--- a/slfifosync/makefile
++++ b/slfifosync/makefile
+@@ -1,4 +1,4 @@
+-## Copyright Cypress Semiconductor Corporation, 2010-2018,
++## Copyright Cypress Semiconductor Corporation, 2010-2011,
+ ## All Rights Reserved
+ ## UNPUBLISHED, LICENSED SOFTWARE.
+ ##
+diff --git a/slfifosync/readme.txt b/slfifosync/readme.txt
+deleted file mode 100755
+index 0d8d457..0000000
+--- a/slfifosync/readme.txt
++++ /dev/null
+@@ -1,59 +0,0 @@
+-
+-                        CYPRESS SEMICONDUCTOR CORPORATION
+-                                    FX3 SDK
+-
+-SYNCHRONOUS SLAVE FIFO PROTOCOL EXAMPLE
+----------------------------------------
+-
+-  This example illustrates the configuration and usage of the GPIF II
+-  interface on the FX3 device to implement the synchronous slave FIFO
+-  protocol.
+-
+-  A master device that implements the Cypress defined Sync Slave FIFO
+-  protocol is required to perform data transfers with this application.
+-
+-  This application example does the following:
+-
+-  1. Configures the GPIF II interface to implement the Sync Slave FIFO
+-     protocol.
+-
+-  2. Enumerates as a vendor specific USB device with two bulk endpoints
+-     (1-OUT and 1-IN).
+-
+-  3. Create MANUAL DMA channels to enable the following data paths:
+-     a. All data received from the USB host through the 1-OUT endpoint is
+-        forwarded to the master device on the slave port through socket 3.
+-     b. All data received from the master device on the slave port through
+-        socket 0 is forwarded to the USB host through the 1-IN endpoint.
+-
+-  4. When any data packet is received through one of the ingress sockets,
+-     the application is notified and forwards the data to the recipient
+-     through a DMA callback function.
+-
+-  Files:
+-
+-    * cyfx_gcc_startup.S   : Start-up code for the ARM-9 core on the FX3
+-      device.  This assembly source file follows the syntax for the GNU
+-      assembler.
+-
+-    * cyfxslfifosync.h     : C header file that defines constants used by
+-      this example implementation.  Can be modified to select USB connection
+-      speed, endpoint numbers and properties etc.
+-
+-    * cyfxslfifousbdscr.c  : C source file that contains USB descriptors
+-      used by this example. VID and PID is defined in this file.
+-
+-    * cyfxgpif_syncsf.h    : C header file that contains the data required
+-      to configure the GPIF interface to implement the Sync. Slave FIFO
+-      protocol.
+-
+-    * cyfxtx.c             : C source file that provides ThreadX RTOS wrapper
+-      functions and other utilites required by the FX3 firmware library.
+-
+-    * cyfxslfifosync.c     : Main C source file that implements this example.
+-
+-    * makefile             : GNU make compliant build script for compiling
+-      this example.
+-
+-[]
+-
