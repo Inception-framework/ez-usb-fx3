@@ -24,21 +24,25 @@ tar xzf FX3_SDK_1.3.4_Linux.tar.gz
 
 tar xvf ARM_GCC.tar.gz
 
-tar xvf fx3_firmware_linux.tar.gz
-
 cd arm-2013.11/lib/gcc/arm-none-eabi/
 
 mv 4.8.1/* ./
 
 cd ../../../../
 
-cd cyfx3sdk/firmware/slavefifo_examples/slfifoasync
+tar xvf fx3_firmware_linux.tar.gz
 
-git apply ../../../../v0-1.patch
+cd cyfx3sdk/firmware/slavefifo_examples
+
+chmod +w -R slfifosync
+
+patch -p1 < ../../../v0-1.patch
+
+cd slfifosync
 
 make clean
 
-make FX3FWROOT=/path/to/FX3_SDK_1.3.4_Linux/fx3_firmware_linux/cyfx3sdk ARMGCC_INSTALL_PATH=/path/to/FX3_SDK_1.3.4_Linux/arm-2013.11 all
+make FX3FWROOT=../../../../cyfx3sdk/ ARMGCC_INSTALL_PATH=../../../../arm-2013.11/ all
 ```
 
 ## Flashing the firmware
@@ -48,7 +52,20 @@ Before flashing make sure that all jumpers are closed.
 ```
 tar xvf cyusb_linux_1.0.5.tar.gz
 
-cd cyusb_linux_1.0.5/src
+cd cyusb_linux_1.0.5/
+
+# if it complains about qt4 library, we don't care
+# we only use this script to install shared library
+# and set udev rules to allow FX3 device access
+# you could do it manually using ldconfig and copying
+# configs/88-cyusb.rules in /etc/udev/rules.d/
+# 
+sudo ./install.sh
+
+# refresh rules, sometines you may need to unplug the device
+sudo udevadm control --reload-rules && sudo udevadm trigger
+
+cd src
 
 make
 
