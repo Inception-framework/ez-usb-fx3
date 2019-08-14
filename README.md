@@ -32,6 +32,10 @@ cd ../../../../
 
 tar xvf fx3_firmware_linux.tar.gz
 
+cd cyfx3sdk/util/elf2img
+
+gcc elf2img.c -o elf2img
+
 cd cyfx3sdk/firmware/slavefifo_examples
 
 chmod +w -R slfifosync
@@ -43,6 +47,8 @@ cd slfifosync
 make clean
 
 make FX3FWROOT=../../../../cyfx3sdk/ ARMGCC_INSTALL_PATH=../../../../arm-2013.11/ all
+
+../../../../cyfx3sdk/util/elf2img/elf2img -vectorload yes -i cyfxslfifosync.elf -o cyfxslfifosync.img
 ```
 
 ## Flashing the firmware
@@ -69,7 +75,15 @@ cd src
 
 make
 
-./download_fx3 -t I2C -i ../../release/1.0/SlaveFifoSync.elf
+cd ..
+
+./src/download_fx3 -t I2C -i ../cyfx3sdk/firmware/slavefifo_examples/slfifosync/cyfxslfifosync.img
+```
+
+or
+
+```
+./src/download_fx3 -t I2C -i ./release/1.0/cyfxslfifosync.img
 ```
 
 # Credits
