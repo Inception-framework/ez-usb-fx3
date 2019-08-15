@@ -2,7 +2,7 @@
 This repository contains FX3 firmware that acts as a bridge in the USB3 to JTAG device.
 Due to licence restriction on Cypress SDK we cannot provide the modified source code directly.
 Instead, we provide a patch to apply on SDK example to get the exact same code.
-If you only want to set-up the usb3-to-JTAG device, we recommand you to use the released binary file (available in release/1.0/).
+If you only want to set-up the usb3-to-JTAG device, we recommand you to use the released binary file (available in release/1.0/). To flash the FX3 from the binary firmware you need to follow all steps below except "Building the firmware".
 
 # How ?
 
