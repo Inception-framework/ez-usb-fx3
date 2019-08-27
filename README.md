@@ -98,7 +98,7 @@ Then, flash the firmware using the following command.
 
 If you are building from source.
 ```
-./src/download_fx3 -t I2C -i ../cyfx3sdk/firmware/slavefifo_examples/slfifosync/cyfxslfifosync.img
+./src/download_fx3 -t I2C -i ../../cyfx3sdk/firmware/slavefifo_examples/slfifosync/cyfxslfifosync.img
 ```
 
 # Credits
