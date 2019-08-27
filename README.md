@@ -17,7 +17,6 @@ https://www.cypress.com/file/424271/download
 Use the following to build the FX3 firmware.
 Note that we provide binary release so then you don't have to build from source.
 If you want to use the release binary please go directly to next step (flashing firmware).
-Otherwise, set the FX3FWROOT and ARMGCC_INSTALL_PATCH variable to the correct location in the FX3 SDK.
 
 ```
 tar xzf FX3_SDK_1.3.4_Linux.tar.gz
@@ -49,6 +48,11 @@ make clean
 make FX3FWROOT=../../../../cyfx3sdk/ ARMGCC_INSTALL_PATH=../../../../arm-2013.11/ all
 
 ../../../../cyfx3sdk/util/elf2img/elf2img -vectorload yes -i cyfxslfifosync.elf -o cyfxslfifosync.img
+```
+
+If the makefile complain about arm-none-eabi-gcc not find, you need to install arm-none-eabi-gcc or add the SDK toolchain to your PATH. To add the SDK toolchain to you PATH on bash:
+```
+export PATH=/path/to/ez-usb-fx3/arm-2013.11/arm-none-eabi/bin/:$PATH
 ```
 
 ## Flashing the firmware
