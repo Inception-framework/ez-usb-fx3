@@ -80,6 +80,8 @@ cd cyusb_linux_1.0.5/
 # 
 sudo ./install.sh
 
+sudo ldconfig $(pwd)/lib/libcyusb.so
+
 # refresh rules, sometines you may need to unplug the device
 sudo udevadm control --reload-rules && sudo udevadm trigger
 ```
