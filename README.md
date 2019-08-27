@@ -94,13 +94,16 @@ make
 ```
 
 Then, flash the firmware using the following command.
+(Note that you need to be in cyusb_linux_1.0.5 directory otherwise some relative paths resolutions will fail)
 ```
-./src/download_fx3 -t I2C -i ./release/1.0/cyfxslfifosync.img
+cd cyusb_linux_1.0.5/
+./src/download_fx3 -t I2C -i ../release/1.0/cyfxslfifosync.img
 ```
 
 If you are building from source.
 ```
-./src/download_fx3 -t I2C -i ../../cyfx3sdk/firmware/slavefifo_examples/slfifosync/cyfxslfifosync.img
+cd cyusb_linux_1.0.5/
+./src/download_fx3 -t I2C -i ../cyfx3sdk/firmware/slavefifo_examples/slfifosync/cyfxslfifosync.img
 ```
 
 # Credits
