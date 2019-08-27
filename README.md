@@ -32,13 +32,11 @@ cd ../../../../
 
 tar xvf fx3_firmware_linux.tar.gz
 
-cd ../../..
-
 cd cyfx3sdk/util/elf2img
 
 gcc elf2img.c -o elf2img
 
-cd cyfx3sdk/firmware/slavefifo_examples
+cd ../../../cyfx3sdk/firmware/slavefifo_examples
 
 chmod +w -R slfifosync
 
