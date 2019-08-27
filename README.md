@@ -50,7 +50,7 @@ make FX3FWROOT=../../../../cyfx3sdk/ ARMGCC_INSTALL_PATH=../../../../arm-2013.11
 ../../../../cyfx3sdk/util/elf2img/elf2img -vectorload yes -i cyfxslfifosync.elf -o cyfxslfifosync.img
 ```
 
-If the makefile complain about arm-none-eabi-gcc not find, you need to install arm-none-eabi-gcc or add the SDK toolchain to your PATH. To add the SDK toolchain to you PATH on bash:
+If the makefile complains about arm-none-eabi-gcc not found, you need to install arm-none-eabi-gcc or add the SDK toolchain to your PATH. To add the SDK toolchain to you PATH on bash:
 ```
 export PATH=/path/to/ez-usb-fx3/arm-2013.11/arm-none-eabi/bin/:$PATH
 ```
