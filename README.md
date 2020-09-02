@@ -17,6 +17,8 @@ Note that we provide binary release so then you don't have to build from source.
 If you want to use the release binary please go directly to next step (flashing firmware).
 
 ```
+git clone git@github.com:Inception-framework/ez-usb-fx3.git
+
 tar xzf FX3_SDK_1.3.4_Linux.tar.gz
 
 tar xvf ARM_GCC.tar.gz
@@ -37,7 +39,7 @@ cd ../../../cyfx3sdk/firmware/slavefifo_examples
 
 chmod +w -R slfifosync
 
-patch -p1 < ../../../v0-1.patch
+patch -p1 < ../../../ez-usb-fx3/v0-1.patch
 
 cd slfifosync
 
